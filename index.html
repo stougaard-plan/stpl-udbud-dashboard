@@ -332,27 +332,35 @@ let decisions = {};  // id -> "go" | "nogo"
 let currentTab = "alle";
 const DATA_URL = "data.json";
 
-// Cloud sync via jsonblob.com (ingen token, ingen opsætning)
-const BLOB_ID = "019d2516-0eea-7a7b-9e7e-eb34b9eac131";
-const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
+// Cloud sync via GitHub Gist (CORS OK, cross-device)
+const GIST_ID = "4fb90bb07cf6af6dbc3be127b6a23d48";
+const GIST_TOKEN = "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";
+const GIST_API = `https://api.github.com/gists/${GIST_ID}`;
 let saveTimeout = null;
 
 // ============================================================
-// LOAD / SAVE (cloud-synkroniseret)
+// LOAD / SAVE (GitHub Gist — synker på tværs af enheder)
 // ============================================================
 
 async function loadDecisions() {
   try {
     updateSyncStatus("Henter...");
-    const resp = await fetch(BLOB_URL, { headers: { "Accept": "application/json" } });
+    const resp = await fetch(GIST_API, {
+      headers: { "Authorization": `token ${GIST_TOKEN}`, "Accept": "application/vnd.github.v3+json" }
+    });
     if (resp.ok) {
-      const data = await resp.json();
-      decisions = data.decisions || {};
+      const gist = await resp.json();
+      const content = gist.files?.["decisions.json"]?.content;
+      if (content) {
+        const data = JSON.parse(content);
+        decisions = data.decisions || {};
+      }
       updateSyncStatus("Synkroniseret");
+    } else {
+      updateSyncStatus("Kunne ikke hente (HTTP " + resp.status + ")");
     }
   } catch(e) {
-    updateSyncStatus("Offline — bruger lokal kopi");
-    // Fallback til localStorage
+    updateSyncStatus("Offline");
     try {
       const saved = localStorage.getItem("stpl_decisions_backup");
       if (saved) decisions = JSON.parse(saved);
@@ -361,21 +369,20 @@ async function loadDecisions() {
 }
 
 async function saveDecisionsToCloud() {
-  const payload = { updated: new Date().toISOString(), decisions };
-  // Altid gem lokal backup
+  const payload = JSON.stringify({ updated: new Date().toISOString(), decisions }, null, 2);
   try { localStorage.setItem("stpl_decisions_backup", JSON.stringify(decisions)); } catch(e) {}
   try {
     updateSyncStatus("Gemmer...");
-    const resp = await fetch(BLOB_URL, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json", "Accept": "application/json" },
-      body: JSON.stringify(payload),
+    const resp = await fetch(GIST_API, {
+      method: "PATCH",
+      headers: {
+        "Authorization": `token ${GIST_TOKEN}`,
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ files: { "decisions.json": { content: payload } } }),
     });
-    if (resp.ok) {
-      updateSyncStatus("Gemt");
-    } else {
-      updateSyncStatus(`Fejl: ${resp.status}`);
-    }
+    updateSyncStatus(resp.ok ? "Gemt" : `Fejl: ${resp.status}`);
   } catch(e) {
     updateSyncStatus("Gemt lokalt (offline)");
   }
