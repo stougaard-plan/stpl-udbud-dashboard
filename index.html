@@ -211,6 +211,32 @@
     color: var(--secondary);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
+  .toolbar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+  .toolbar .btn-copy {
+    padding: 8px 16px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .toolbar .btn-copy:hover { opacity: 0.85; }
+  .toolbar .btn-copy:disabled { opacity: 0.4; cursor: default; }
+  .toolbar .copy-feedback {
+    font-size: 0.8rem;
+    color: var(--go);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .toolbar .copy-feedback.show { opacity: 1; }
   @media (max-width: 600px) {
     body { padding: 12px; }
     .stats-bar { gap: 12px; }
@@ -275,6 +301,11 @@
     <label>Søg</label><br>
     <input type="text" id="f-search" placeholder="Kommune, titel..." style="width: 200px;">
   </div>
+</div>
+
+<div class="toolbar">
+  <button class="btn-copy" id="btn-copy-shortlist" onclick="copyShortlist()">Kopiér Go-shortlist</button>
+  <span class="copy-feedback" id="copy-feedback">Kopieret!</span>
 </div>
 
 <div class="tab-bar">
@@ -592,6 +623,37 @@ document.getElementById("cards-container").addEventListener("click", function(e)
   const card = e.target.closest(".card");
   if (card) card.classList.toggle("expanded");
 });
+
+// Kopiér Go-shortlist til clipboard (formatteret tekst)
+function copyShortlist() {
+  const goItems = allItems.filter(i => getStatus(i.id) === "go");
+  if (goItems.length === 0) {
+    alert("Ingen sager markeret som Go.");
+    return;
+  }
+  const lines = goItems.map((item, idx) => {
+    const parts = [
+      `${idx + 1}. ${item.titel}`,
+      `   Kommune: ${item.kommune}${item.udvalg ? " · " + item.udvalg : ""}`,
+      `   Dato: ${item.moede_dato}`,
+      `   Type: ${item.stpl_type} · Score: ${"★".repeat(item.stpl_score)}${"☆".repeat(5 - item.stpl_score)} · Bid: ${item.bid_mode}`,
+    ];
+    if (item.indstilling) parts.push(`   Indstilling: ${item.indstilling}`);
+    if (item.resume) parts.push(`   Resume: ${item.resume}`);
+    if (item.link) parts.push(`   Link: ${item.link}`);
+    return parts.join("\n");
+  });
+  const text = `STPL Go-shortlist (${goItems.length} sager, ${new Date().toISOString().slice(0,10)})\n${"=".repeat(60)}\n\n${lines.join("\n\n")}`;
+  navigator.clipboard.writeText(text).then(() => {
+    const fb = document.getElementById("copy-feedback");
+    fb.classList.add("show");
+    setTimeout(() => fb.classList.remove("show"), 2000);
+  }).catch(() => {
+    // Fallback: åbn i ny fane
+    const w = window.open("", "_blank");
+    w.document.write("<pre>" + text.replace(/</g, "&lt;") + "</pre>");
+  });
+}
 
 // Export decisions as downloadable JSON (for Notion sync)
 function exportDecisions() {
