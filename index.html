@@ -306,7 +306,6 @@
 <div class="toolbar">
   <button class="btn-copy" id="btn-copy-shortlist" onclick="copyShortlist()">Kopiér Go-shortlist</button>
   <span class="copy-feedback" id="copy-feedback">Kopieret!</span>
-  <button class="btn-copy" style="background: var(--secondary); margin-left: auto; padding: 6px 12px;" onclick="showTokenPrompt()" title="Indstil GitHub-token for synkronisering">&#9881; Sync</button>
 </div>
 
 <div class="tab-bar">
@@ -333,113 +332,58 @@ let decisions = {};  // id -> "go" | "nogo"
 let currentTab = "alle";
 const DATA_URL = "data.json";
 
-// GitHub sync config
-const GH_REPO = "stougaard-plan/stpl-udbud-dashboard";
-const GH_FILE = "decisions.json";
-const GH_TOKEN_KEY = "stpl_gh_token";
-let ghToken = localStorage.getItem(GH_TOKEN_KEY) || "";
-let ghFileSha = null;  // Nødvendig for GitHub API updates
-let saveTimeout = null;  // Debounce
+// Cloud sync via jsonblob.com (ingen token, ingen opsætning)
+const BLOB_ID = "019d2516-0eea-7a7b-9e7e-eb34b9eac131";
+const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
+let saveTimeout = null;
 
 // ============================================================
-// LOAD / SAVE (GitHub-synkroniseret)
+// LOAD / SAVE (cloud-synkroniseret)
 // ============================================================
 
-function showTokenPrompt() {
-  const existing = ghToken ? " (allerede sat — lad feltet stå tomt for at beholde)" : "";
-  const token = prompt(
-    `GitHub Personal Access Token${existing}\n\n` +
-    `Opret token på github.com/settings/tokens med "Contents: read+write" ` +
-    `for repo "${GH_REPO}".\n\nIndsæt token:`
-  );
-  if (token && token.trim()) {
-    ghToken = token.trim();
-    localStorage.setItem(GH_TOKEN_KEY, ghToken);
-    loadDecisionsFromGH();
-  }
-}
-
-async function loadDecisionsFromGH() {
-  if (!ghToken) {
-    // Prøv at læse decisions.json offentligt (GET er gratis for public repos)
-    try {
-      const resp = await fetch(`https://raw.githubusercontent.com/${GH_REPO}/main/${GH_FILE}?t=${Date.now()}`);
-      if (resp.ok) {
-        const data = await resp.json();
-        decisions = data.decisions || {};
-        render();
-        updateSyncStatus("Synkroniseret (read-only — tilføj token for at gemme)");
-      }
-    } catch(e) {}
-    return;
-  }
+async function loadDecisions() {
   try {
-    const resp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`, {
-      headers: { "Authorization": `token ${ghToken}`, "Accept": "application/vnd.github.v3+json" }
-    });
+    updateSyncStatus("Henter...");
+    const resp = await fetch(BLOB_URL, { headers: { "Accept": "application/json" } });
     if (resp.ok) {
       const data = await resp.json();
-      ghFileSha = data.sha;
-      const content = JSON.parse(atob(data.content));
-      decisions = content.decisions || {};
-      render();
+      decisions = data.decisions || {};
       updateSyncStatus("Synkroniseret");
-    } else if (resp.status === 404) {
-      // Fil eksisterer ikke endnu — første gang
-      ghFileSha = null;
-      updateSyncStatus("Klar til at gemme");
-    } else {
-      updateSyncStatus("Token-fejl — klik ⚙ for at opdatere");
     }
   } catch(e) {
-    updateSyncStatus("Netværksfejl");
+    updateSyncStatus("Offline — bruger lokal kopi");
+    // Fallback til localStorage
+    try {
+      const saved = localStorage.getItem("stpl_decisions_backup");
+      if (saved) decisions = JSON.parse(saved);
+    } catch(e2) {}
   }
 }
 
-async function saveDecisionsToGH() {
-  if (!ghToken) return;
-  const content = btoa(unescape(encodeURIComponent(
-    JSON.stringify({ updated: new Date().toISOString(), decisions }, null, 2)
-  )));
-  const body = {
-    message: `Opdater beslutninger (${Object.keys(decisions).length} valg)`,
-    content,
-  };
-  if (ghFileSha) body.sha = ghFileSha;
+async function saveDecisionsToCloud() {
+  const payload = { updated: new Date().toISOString(), decisions };
+  // Altid gem lokal backup
+  try { localStorage.setItem("stpl_decisions_backup", JSON.stringify(decisions)); } catch(e) {}
   try {
     updateSyncStatus("Gemmer...");
-    const resp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`, {
+    const resp = await fetch(BLOB_URL, {
       method: "PUT",
-      headers: {
-        "Authorization": `token ${ghToken}`,
-        "Accept": "application/vnd.github.v3+json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(body),
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify(payload),
     });
     if (resp.ok) {
-      const data = await resp.json();
-      ghFileSha = data.content.sha;
       updateSyncStatus("Gemt");
     } else {
-      const err = await resp.json();
-      if (resp.status === 409) {
-        // SHA conflict — hent ny sha og prøv igen
-        await loadDecisionsFromGH();
-        saveDecisionsToGH();
-        return;
-      }
-      updateSyncStatus(`Fejl: ${err.message || resp.status}`);
+      updateSyncStatus(`Fejl: ${resp.status}`);
     }
   } catch(e) {
-    updateSyncStatus("Netværksfejl ved gem");
+    updateSyncStatus("Gemt lokalt (offline)");
   }
 }
 
 function saveDecisions() {
-  // Debounce: vent 1 sek efter sidste ændring før gem til GitHub
   clearTimeout(saveTimeout);
-  saveTimeout = setTimeout(() => saveDecisionsToGH(), 1000);
+  saveTimeout = setTimeout(() => saveDecisionsToCloud(), 800);
 }
 
 function updateSyncStatus(msg) {
@@ -771,8 +715,8 @@ document.addEventListener("keydown", e => {
 // INIT
 // ============================================================
 
-// Load data first, then decisions from GitHub
-loadData().then(() => loadDecisionsFromGH());
+// Load data + decisions fra cloud
+loadData().then(() => loadDecisions().then(() => render()));
 </script>
 
 </body>
