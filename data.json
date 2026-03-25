@@ -1,9 +1,9 @@
 {
   "stats": {
-    "scan_dato": "2026-03-25 12:07",
+    "scan_dato": "2026-03-25 13:02",
     "scannet_ok": 75,
     "total_kommuner": 92,
-    "mini_udbud_fundet": 141,
+    "mini_udbud_fundet": 28,
     "ted_udbud_fundet": 0
   },
   "portal_udbud": [],
@@ -24,6 +24,9 @@
       "link": "https://dagsordener.greve.dk/#/meeting/69a82c26-2ba8-4f03-938e-186355646acc",
       "kontaktperson": "",
       "resume": "",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "1. Næste møde afholdes uden gæster den 28. april kl. 18 - 20 på Rådhuset, hvor der også fastsættes en mødekalender for resten af året og et oplæg til inddragelse af Dansk Arkitekturcenter samt den rådgiverydelse, der allerede er besluttet i sidste byrådsperiode. Øvrig brug af rådgivning drøftes i det videre forløb. 2. Udvalget drøftede temaer med afsæt i Bilag 1, bl.a. bygninger og særligt store og markante bygninger og bygningskomplekser (herunder også kommunale bygninger og arealer såsom Valhallen), livet imellem husene i form af bl.a. forbindelser, grønne og attraktive byrum, bymidte, klimasikring, forskønnelse, tryghed, fortætninger og nye boligformer med et formål (fx seniorboliger). Derudover skulle der tænkes i området ved stranden og Hundigeparken. 3. Udvalget arbejder med en bred og temabaseret inddragelse af bl.a. grundejerforeninger, de almene boligforeninger, erhvervslivet, politiet m.fl. 4. Udvalget ønsker, at der bl.a. arbejdes med byens belysning i boligområder, Waves og tunneller m.m., samt at der arbejdes med tryghedsfremmende foranstaltninger såsom beskæring af buske og beplantning. 5. Godkendt. Derudover ønskede udvalget, at der kom en sag på omkring den boligsociale helhedsplan.",
       "indkoeb_keywords": [
         "ekstern\\s+bistand",
         "rådgiver(?:ydelse|kontrakt|opgave)",
@@ -31,174 +34,9 @@
         "afsæt(?:te|tes)\\s+midler.*(?:rådgiv|kons"
       ],
       "fagomraade_keywords": [
-        "planlægning",
         "byudvikling",
         "helhedsplan",
         "klimatilpasning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Langeland_26/1384_2026-03-17",
-      "kommune": "Langeland",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "69",
-      "titel": "SHORES",
-      "sagsnr": "26/1384",
-      "indstilling": "Direktionen indstiller, at Erhvervs- og Kulturudvalget anbefaler til Økonomiudvalget og Kommunalbestyrelsen, at: Processen omkring og byggeriet af Springet, Loungen og Hytten i regi af SHORES igangsæt",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.langelandkommune.dk/#/meeting/48879742-4dca-4910-8382-beac4c050012",
-      "kontaktperson": "",
-      "resume": "Dette punkt omhandler stillingtagen til udmøntning af SHORES faciliteter.",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "helhedsplan",
-        "forsyning",
-        "bygherrerådgivning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Samsø_S2025-379_2026-03-18",
-      "kommune": "Samsø",
-      "udvalg": "Nuværende kommunalbestyrelsesperiode 2026-2029",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "43",
-      "titel": "Cykelstiprojekt Sælvig medfinansiering - TU-ØU-KB",
-      "sagsnr": "S2025-379",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsorden.samsoe.dk/#/meeting/0779d9da-39a3-4631-8586-014c496f5d7b",
-      "kontaktperson": "",
-      "resume": "Som en del af projekt bæredygtig turisme blev der primo 2025 søgt om og bevilget en ekstern rådgiver til at se på cykelinfrastrukturen til/fra Sælvig Havn. Der blev udarbejdet 2 projekter - dels på selve Sælvig Havn og ved vejkrydset Sælvig-Havvejen. Der blev søgt om puljemidler til disse 2 proje...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "bevilling.*rådgiv",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "byfornyelse",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Dragør_26/642_2026-03-19",
-      "kommune": "Dragør",
-      "udvalg": "2. Økonomiudvalget",
-      "moede_dato": "2026-03-19",
-      "punkt_nr": "9",
-      "titel": "Beslutning - Udskiftning af kunstgræsbane",
-      "sagsnr": "26/642",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.dragoer.dk/#/meeting/139029f6-f0b8-43da-b5e8-322588a2f16b",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "miljøvurdering",
-        "miljøscreening"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_05.00.00-A00-12-25_2026-03-19",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-19",
-      "punkt_nr": "20",
-      "titel": "Beslutning om overtagelse af belysning på 9 private fællesveje (Beslutning)",
-      "sagsnr": "05.00.00-A00-12-25",
-      "indstilling": "Forvaltningen foreslår, at kommunen overtager ansvaret for drift, vedligehold og finansiering af vejbelysningen på de resterende 9 private fællesveje for at sikre den almene færdsel og tryghedsfølelse",
-      "beslutning": "Anbefalet.",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.ltk.dk/#/meeting/949e97fc-eff7-4d26-bfa1-ab6157649541",
-      "kontaktperson": "",
-      "resume": "Der er behov for politisk stillingtagen til, om kommunen skal overtage drift og vedligehold af vejbelysningen på 9 private fællesveje, eller om ansvaret for drift og vedligehold fortsat skal varetages af grundejerne selv. Kommunen varetager i dag drift og vedligehold af vejbelysningen på de øvrig...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Tønder_00.22.04-P35-2-19_2026-03-19",
-      "kommune": "Tønder",
-      "udvalg": "     Økonomiudvalget",
-      "moede_dato": "2026-03-19",
-      "punkt_nr": "13",
-      "titel": "Anlægsbevilling og frigivelse af rådighedsbeløb til nyt Toftlund Sport- og Fritidscenter",
-      "sagsnr": "00.22.04-P35-2-19",
-      "indstilling": "",
-      "beslutning": "Indstillingen anbefales.",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.toender.dk/#/meeting/0723d133-82d0-42fc-b968-0d67c0e74e9f",
-      "kontaktperson": "",
-      "resume": "Arbejdet med Toftlund Sport- og Fritidscenter skrider frem efter planen, men der har løbende været nødvendige forlængelser af tidsplanen på grund af uforudsete forhold under nedbrydningen samt jordbundsforholdene på pladsen, som har krævet væsentlige tiltag. Totalentreprenøren, Gråkjær, er stødt ...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "byudvikling",
-        "masterplan",
-        "bygherrerådgivning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Tønder_06.02.10-P20-4-21_2026-03-19",
-      "kommune": "Tønder",
-      "udvalg": "     Økonomiudvalget",
-      "moede_dato": "2026-03-19",
-      "punkt_nr": "22",
-      "titel": "Anlægsbevilling og frigivelse af midler til genslyngning af Løgumkloster Bæk",
-      "sagsnr": "06.02.10-P20-4-21",
-      "indstilling": "",
-      "beslutning": "Indstillingen anbefales.",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.toender.dk/#/meeting/0723d133-82d0-42fc-b968-0d67c0e74e9f",
-      "kontaktperson": "",
-      "resume": "Løgumkloster Refugium har i samarbejde med repræsentanter fra Brede Å Lystfiskerforening, Løgumkloster Højskole, Lokalrådet i Løgumkloster, Løgumkloster Kirke og Tønder Kommune udviklet projektet ”Munkenes enge og vandløb”. Løgumkloster Refugium er projektejer og står for projektstyring og fondsa...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "byudvikling"
       ],
       "status": "ny"
     },
@@ -218,6 +56,9 @@
       "link": "https://dagsordener.greve.dk/#/meeting/77541288-b456-4d87-83f0-043a3c4f08fa",
       "kontaktperson": "",
       "resume": "",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "Sagen blev drøftet.",
       "indkoeb_keywords": [
         "ekstern\\s+rådgiv",
         "rådgiver(?:ydelse|kontrakt|opgave)",
@@ -227,271 +68,7 @@
         "kommuneplan",
         "klimahandling",
         "(?:plan|by|detail|bosætning|potentiale|s",
-        "mobilitetsplan",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Langeland_26/1384_2026-03-23",
-      "kommune": "Langeland",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "130",
-      "titel": "SHORES",
-      "sagsnr": "26/1384",
-      "indstilling": "Direktionen indstiller, at Erhvervs- og Kulturudvalget anbefaler til Økonomiudvalget og Kommunalbestyrelsen, at: Processen omkring og byggeriet af Springet, Loungen og Hytten i regi af SHORES igangsæt",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.langelandkommune.dk/#/meeting/45e041f0-e51e-45be-b836-98d91f7ef039",
-      "kontaktperson": "",
-      "resume": "Dette punkt omhandler stillingtagen til udmøntning af SHORES faciliteter.",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "helhedsplan",
-        "forsyning",
-        "bygherrerådgivning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Samsø_S2025-379_2026-03-23",
-      "kommune": "Samsø",
-      "udvalg": "Nuværende kommunalbestyrelsesperiode 2026-2029",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "63",
-      "titel": "Cykelstiprojekt Sælvig medfinansiering - TU-ØU-KB",
-      "sagsnr": "S2025-379",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsorden.samsoe.dk/#/meeting/7a24f67d-0fc6-49a7-b8a3-a87e79742ec7",
-      "kontaktperson": "",
-      "resume": "Som en del af projekt bæredygtig turisme blev der primo 2025 søgt om og bevilget en ekstern rådgiver til at se på cykelinfrastrukturen til/fra Sælvig Havn. Der blev udarbejdet 2 projekter - dels på selve Sælvig Havn og ved vejkrydset Sælvig-Havvejen. Der blev søgt om puljemidler til disse 2 proje...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "bevilling.*rådgiv",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "byfornyelse",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lolland_13.25.00-G01-3-26_2026-03-26",
-      "kommune": "Lolland",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "7",
-      "titel": "Principbeslutning Færgestrategi",
-      "sagsnr": "13.25.00-G01-3-26",
-      "indstilling": "Administrationen indstiller til Klima-, Teknik-, og Miljøudvalget at: der med baggrund i den vedtagne færgestrategi og den politiske aftale 2026-2029 træffes beslutning som anbefalet.",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.lolland.dk/#/meeting/f3875486-5c67-4274-b11b-daeb482260bd",
-      "kontaktperson": "",
-      "resume": "Færgefarten i Lolland Kommune står overfor en lang række store forandringer hen imod en langsigtet og fremtidssikret løsning af færgedriften til øerne Fejø, Femø og Askø. Færgestrategien er vedtaget af byrådet i september 2023, og den indeholder fire hovedpunkter: Køb af ny færge: Der skal indkøb...",
-      "indkoeb_keywords": [
-        "rådgiver(?:ydelse|kontrakt|opgave)",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "(?:plan|by|detail|bosætning|potentiale|s",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_05.00.00-A00-12-25_2026-03-26",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "11",
-      "titel": "Beslutning om overtagelse af belysning på 9 private fællesveje (Beslutning)",
-      "sagsnr": "05.00.00-A00-12-25",
-      "indstilling": "Forvaltningen foreslår, at kommunen overtager ansvaret for drift, vedligehold og finansiering af vejbelysningen på de resterende 9 private fællesveje for at sikre den almene færdsel og tryghedsfølelse",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.ltk.dk/#/meeting/0714fc1d-ac6b-4ecb-ab01-c4024890ef5f",
-      "kontaktperson": "",
-      "resume": "Der er behov for politisk stillingtagen til, om kommunen skal overtage drift og vedligehold af vejbelysningen på 9 private fællesveje, eller om ansvaret for drift og vedligehold fortsat skal varetages af grundejerne selv. Kommunen varetager i dag drift og vedligehold af vejbelysningen på de øvrig...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Tønder_00.22.04-P35-2-19_2026-03-26",
-      "kommune": "Tønder",
-      "udvalg": "      Kommunalbestyrelsen",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "14",
-      "titel": "Anlægsbevilling og frigivelse af rådighedsbeløb til nyt Toftlund Sport- og Fritidscenter",
-      "sagsnr": "00.22.04-P35-2-19",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.toender.dk/#/meeting/339ab233-4557-4051-b84a-4e5f773a9684",
-      "kontaktperson": "",
-      "resume": "Arbejdet med Toftlund Sport- og Fritidscenter skrider frem efter planen, men der har løbende været nødvendige forlængelser af tidsplanen på grund af uforudsete forhold under nedbrydningen samt jordbundsforholdene på pladsen, som har krævet væsentlige tiltag. Totalentreprenøren, Gråkjær, er stødt ...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "byudvikling",
-        "masterplan",
-        "bygherrerådgivning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Tønder_06.02.10-P20-4-21_2026-03-26",
-      "kommune": "Tønder",
-      "udvalg": "      Kommunalbestyrelsen",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "20",
-      "titel": "Anlægsbevilling og frigivelse af midler til genslyngning af Løgumkloster Bæk",
-      "sagsnr": "06.02.10-P20-4-21",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 5,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.toender.dk/#/meeting/339ab233-4557-4051-b84a-4e5f773a9684",
-      "kontaktperson": "",
-      "resume": "Løgumkloster Refugium har i samarbejde med repræsentanter fra Brede Å Lystfiskerforening, Løgumkloster Højskole, Lokalrådet i Løgumkloster, Løgumkloster Kirke og Tønder Kommune udviklet projektet ”Munkenes enge og vandløb”. Løgumkloster Refugium er projektejer og står for projektstyring og fondsa...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "byudvikling"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Nordfyns_S2025-10053_2026-03-11",
-      "kommune": "Nordfyns",
-      "udvalg": "Teknik- og Miljøudvalget",
-      "moede_dato": "2026-03-11",
-      "punkt_nr": "44",
-      "titel": "Klima - Bogense Kystdiger - ansøgning om tillægsbevilling til anlægsprojektet (Procesudgifter)",
-      "sagsnr": "S2025-10053",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Miljø",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.nordfynskommune.dk/#/meeting/7e211fef-0dee-4a46-b10c-c98ef71180bd",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "klimatilpasning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Ikast-Brande_85.02.00-P35-2-26_2026-03-16",
-      "kommune": "Ikast-Brande",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "9",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation (E)",
-      "sagsnr": "85.02.00-P35-2-26",
-      "indstilling": "Teknik- og Stabsdirektøren indstiller, at Ikast-Brande Byråd tilkendegiver, at den har til hensigt at indgå samarbejde med kommunerne i Region Midtjylland om at indgå i oprettelsen af en midtjysk IT-s",
-      "beslutning": "Godkendt. Lotte Stoltenborg havde afbud og deltog ikke i sagens behandling.",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.ikast-brande.dk/#/meeting/c066edd0-5958-4e20-964c-078fff8e5bb0",
-      "kontaktperson": "",
-      "resume": "I økonomiaftalen mellem regeringen og kommunerne for 2026 (ØA26) er det aftalt, at ”kommunerne senest d. 1. januar 2027 vil etablere sig i nye, tværkommunale samarbejder i form af 4-5 kommunale it-serviceorganisationer med geografisk udgangspunkt i de fire regioner. De nye IT-serviceorganisatione...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Ikast-Brande_18.15.00-A00-101-25_2026-03-16",
-      "kommune": "Ikast-Brande",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "10",
-      "titel": "Frigivelse af midler til etablering af boldbaner ved Hagelskærvej i Ikast (E)",
-      "sagsnr": "18.15.00-A00-101-25",
-      "indstilling": "Kommunaldirektøren indstiller, at der frigives 1.000.000 kr. af det afsatte rådighedsbeløb på 4.000.000 kr. i budget 2026 til planlægning og projektering af etablering af nye boldbaner, omklædningsfac",
-      "beslutning": "Godkendt. Lotte Stoltenborg havde afbud og deltog ikke i sagens behandling.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.ikast-brande.dk/#/meeting/c066edd0-5958-4e20-964c-078fff8e5bb0",
-      "kontaktperson": "",
-      "resume": "I forbindelse med budgetforliget for 2026 besluttede Byrådet at afsætte en pulje på 4.000.000 kr. i 2026 til etablering af fodboldbaner, omklædningsfaciliteter og parkeringspladser ved Hagelskærvej i Ikast. Derudover er der afsat 11.000.000 kr. til samme formål i overslagsåret 2027. Den samlede a...",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lemvig_85.15.00A00-1-25_2026-03-16",
-      "kommune": "Lemvig",
-      "udvalg": "Økonomi- og Erhvervsudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "6",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation",
-      "sagsnr": "85.15.00A00-1-25",
-      "indstilling": "At 1) kommunalbestyrelsen tilkendegiver, at den har til hensigt at indgå samarbejde med kommunerne i Region Midtjylland om at indgå i oprettelsen af en midtjysk IT-serviceorganisation. At 2) kommunalb",
-      "beslutning": "Indstillingen anbefalet.",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.lemvig.dk/#/meeting/6d075941-058b-4301-8cb1-f39c86735209",
-      "kontaktperson": "",
-      "resume": "Chef for Digitalisering & IT deltager i mødet kl. 15.00 Sagen har været drøftet i digitaliseringsstyregruppen og direktionen. De anbefaler, at indstillingen følges. 1. Hvorfor fremsendes indstillingen? I økonomiaftalen mellem regeringen og kommunerne for 2026 (ØA26) er det aftalt, at ”kommunerne ...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
+        "mobilitetsplan"
       ],
       "status": "ny"
     },
@@ -511,115 +88,15 @@
       "link": "https://dagsordener.lemvig.dk/#/meeting/6d075941-058b-4301-8cb1-f39c86735209",
       "kontaktperson": "",
       "resume": "Direktør Claus Borg deltager på mødet kl. 16.00. Thyborøn 2.0 – Den Maritime Kraft er titlen på det udviklings- og anlægsprojekt, der med støtte fra Realdania og Danmarks Erhvervsfremmebestyrelse gennemføres i Thyborøn. Projektet udspringer af Udviklingsplanen for Vestkysten samt Strategisk Fysis...",
+      "sagsfremstilling": "Direktør Claus Borg deltager på mødet kl. 16.00. Thyborøn 2.0 – Den Maritime Kraft er titlen på det udviklings- og anlægsprojekt, der med støtte fra Realdania og Danmarks Erhvervsfremmebestyrelse gennemføres i Thyborøn. Projektet udspringer af Udviklingsplanen for Vestkysten samt Strategisk Fysisk Udviklingsplan for Thorsminde–Thyborøn. Projektet er inddelt i tre etaper (se Helhedsplan, bilag 1). Etape 1. Økonomi- og Erhvervsudvalget godkendte den 2. september 2024 licitationsresultatet for etape 1. Udvalget besluttede samtidig, at et eventuelt underskud i etape 1 skulle dækkes af midler fra etape 2 og 3. Etape 1 er afsluttet i 2025 og udviser et underskud på 1,6 mio.kr. Etape 1 blev indviet den 10. oktober 2026. Etape 2 og 3. Projektforslag for Etape 2 og 3 blev godkendt af Teknik- og Miljøudvalget den 1. september 2025 og af Økonomi- og Erhvervsudvalget den 8. september 2025. Etaperne er efterfølgende opdelt i to selvstændige udbud og viderebearbejdet. Da licitationerne for etape 2 (Vejprojekter) og 3 (Havneprojekt) afholdes forskudt, men indbyrdes er økonomisk afhængige af hinanden, er de enkelte anlægsprojekter i etape 2 udbudt som optioner. Det betyder at der først ved licitation af etape 3, kan træffes endelig beslutning om igangsættelse af de resterende anlægsarbejder i Etape 2, se Tids- og procesplan i bilag 2. Licitationsresultat for etape 2 – Vejprojekter. Anlægsarbejderne i etape 2 (se oversigtsplan, bilag 3) har været i udbud hos fire entreprenører i perioden 10. februar – 5. marts 2026. Ved licitationen den 5. marts 2026 modtog Lemvig Kommune tre tilbud, idet Vejlby Kloak Service ikke afgav tilbud. Indkomne tilbud (ekskl. moms): Nørgaards Fliser Aps: 4.612.625,85 kr. Ib G Jensen A/S: 5.061.416,04 kr. Kaj Bech A/S: 5.294.121,92 kr. Laveste tilbud blev afgivet af Nørgaards Fliser ApS. Ved gennemgang er konstateret enkelte regnefejl i tilbuddet idet der er poster i tilbudslisten, der ikke er kommet med i sammentællingen. Når der korrigeres for dette, bliver den samlede tilbudspris fra Nørgaards Fliser ApS på 4.744.100,85 kr. ekskl. moms. Med korrektion af regnefejlene i tilbuddet fra Nørgaards Fliser ApS vil dette tilbud fortsat være det billigste. På baggrund af de indkomne tilbud indstilles det, at arbejdet tildeles den lavestbydende entreprenør, Nørgaards Fliser Aps. Licitationsresultatet blev den 12. marts 2026 forelagt Den administrative styregruppe, som bakker op om valg af entreprenør. Beslutning fra mødet sendes til orientering hos Bestyrelsen for Fonden Thyborøn.",
+      "indstilling_fuld": "At arbejdet overdraget til lavestbydende entreprenør, Nørgaards Fliser.",
+      "beslutning_fuld": "Indstillingen godkendt.",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
         "helhedsplan",
         "kloak"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Randers_04.01.10-P20-1-23_2026-03-16",
-      "kommune": "Randers",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "36",
-      "titel": "Badesø på Nordre Fælled - udbud af totalrådgivning samt bevilling",
-      "sagsnr": "04.01.10-P20-1-23",
-      "indstilling": "Forvaltningen indstiller til byrådet via miljø- og teknikudvalget og økonomiudvalget at der igangsættes et EU-udbud af totalrådgivning for projekt ”Spring ud i det - badesø på Nordre Fælled\" med udgan",
-      "beslutning": "Indstilles godkendt. Et forslag fra Det Radikale Venstre om at Valggruppe 2 indgår i bedømmelsesudvalget blev godkendt, idet det dog først undersøges om der kan indgås aftale med fondene herom. Louise",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.randers.dk/#/meeting/65f54faa-e7ba-4cd1-a7d5-d9ed20ee9cea",
-      "kontaktperson": "",
-      "resume": "Randers Kommune modtog i 2023 tilsagn fra A. P. Møller Fonden om støtte til projektet ”Spring ud i det - badesø på Nordre Fælled\". I 2025 har Lokale- og Anlægsfonden derudover givet tilsagn om yderligere støtte, som muliggør en udvidelse af projektet, så det er muligt at løfte hele Nordre Fælled ...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Randers_85.15.00-A00-1-26_2026-03-16",
-      "kommune": "Randers",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "42",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation",
-      "sagsnr": "85.15.00-A00-1-26",
-      "indstilling": "Det indstilles til byrådet via økonomiudvalget, At det tilkendegives, at Randers Kommune har til hensigt at indgå samarbejde med kommunerne i Region Midtjylland om at indgå i oprettelsen af en midtjys",
-      "beslutning": "Indstilles godkendt. Louise Høeg var fraværende.",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.randers.dk/#/meeting/65f54faa-e7ba-4cd1-a7d5-d9ed20ee9cea",
-      "kontaktperson": "",
-      "resume": "1. Hvorfor fremsendes indstillingen? I økonomiaftalen mellem regeringen og kommunerne for 2026 (ØA26) er det aftalt, at ”kommunerne senest d. 1. januar 2027 vil etablere sig i nye, tværkommunale samarbejder i form af 4-5 kommunale it-serviceorganisationer med geografisk udgangspunkt i de fire reg...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Randers_00.01.00-S55-3-26_2026-03-16",
-      "kommune": "Randers",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "43",
-      "titel": "Finansrapport 2025 og restlåneoptagelse vedr. låneramme 2025",
-      "sagsnr": "00.01.00-S55-3-26",
-      "indstilling": "Forvaltningen indstiller til byrådet via økonomiudvalget at finansrapporten for 2025 tages til efterretning, at der gives anlægsbevilling til lånoptagelse på 47,3 mio. kr. vedr. den ordinære låneramme",
-      "beslutning": "ad. 1. Indstilles taget til efterretning. ad. 2. Indstilles godkendt. ad. 3. Indstilles godkendt med 8 stemmer for og 2 stemmer imod. Imod stemte Østbroen og Dansk Folkeparti. ad. 4. Indstilles godken",
-      "stpl_score": 4,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.randers.dk/#/meeting/65f54faa-e7ba-4cd1-a7d5-d9ed20ee9cea",
-      "kontaktperson": "",
-      "resume": "Nedenfor beskrives resultatet for 2025 opdelt på henholdsvis aktiv- og passiv-siden. Aktivsiden På aktivsiden redegøres der for afkastet på PM-aftalerne (portefølje i ekstern kapitalforvaltning) samt afkastet på kommunens korte obligationsbeholdning. Randers Kommune har PM-aftaler med hhv. Nordea...",
-      "indkoeb_keywords": [
-        "tilbudsindhentning",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Slagelse_26-002542_2026-03-16",
-      "kommune": "Slagelse",
-      "udvalg": "  Økonomiudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "4",
-      "titel": "Anlægsbevilling til Sygehusets Børneinstitution til udskiftning af ventilationsanlæg (B)",
-      "sagsnr": "26-002542",
-      "indstilling": "",
-      "beslutning": "At 1: Indstilles til Byrådets godkendelse.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.slagelse.dk/#/meeting/d18b43fc-22c3-497a-8bee-e1f6f92bcc28",
-      "kontaktperson": "",
-      "resume": "Kompetence",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
       ],
       "status": "ny"
     },
@@ -639,996 +116,73 @@
       "link": "https://dagsordener.slagelse.dk/#/meeting/d18b43fc-22c3-497a-8bee-e1f6f92bcc28",
       "kontaktperson": "",
       "resume": "Kompetence Økonomiudvalget. Beslutningstema Økonomiudvalget kan beslutte, om Erhvervs-, Udviklings- og Landdistriktsudvalget skal anmodes om at opstarte en lokalplanproces for Lindegården, Gadekærsvej 15 samt de 2 nærliggende ladebygninger på Omø med henblik på gennemførelse af udviklingsprojekt ...",
+      "sagsfremstilling": "Kompetence Økonomiudvalget. Beslutningstema Økonomiudvalget kan beslutte, om Erhvervs-, Udviklings- og Landdistriktsudvalget skal anmodes om at opstarte en lokalplanproces for Lindegården, Gadekærsvej 15 samt de 2 nærliggende ladebygninger på Omø med henblik på gennemførelse af udviklingsprojekt med fokus på bosætning, turisme og kultur. Økonomiudvalget kan desuden beslutte, om Gadekærsvej 15 samt ladebygningerne herefter skal udbydes til salg ved offentligt udbud Indstilling Chefen for Kommunale Ejendomme indstiller, 1. at Økonomiudvalget beslutter, at sagen sendes til Erhvervs-, Udviklings- og Landdistriktsudvalget med anmodning om, at der bliver opstartet en lokalplansproces for Lindegården, Gadekærsvej 15 samt de to nærliggende ladebygninger, som gør det muligt at realisere et udviklingsprojekt med udgangspunkt i kommunens Ø-politik, og som har fokus på bosætning, turisme og kultur med Lindegården som omdrejningspunkt. 2. at Lindegårdens bygninger herefter sættes til salg ved offentligt udbud.",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "At 1-2: Godkendt.",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
         "lokalplan",
         "kommuneplan",
-        "forsyning",
         "grundvandsbeskyttelse"
       ],
       "status": "ny"
     },
     {
-      "id": "Vejle_01.00.00-A00-1-26_2026-03-16",
-      "kommune": "Vejle",
-      "udvalg": "Økonomi & Erhvervsudvalget ",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "46",
-      "titel": "Forslag til ansøgning om Strategisk-Fysisk Udviklingsplan for turisme i Vejle Ådal og Fjord",
-      "sagsnr": "01.00.00-A00-1-26",
+      "id": "Samsø_S2025-379_2026-03-18",
+      "kommune": "Samsø",
+      "udvalg": "Nuværende kommunalbestyrelsesperiode 2026-2029",
+      "moede_dato": "2026-03-18",
+      "punkt_nr": "43",
+      "titel": "Cykelstiprojekt Sælvig medfinansiering - TU-ØU-KB",
+      "sagsnr": "S2025-379",
       "indstilling": "",
-      "beslutning": "Godkendt.",
+      "beslutning": "",
       "stpl_score": 4,
-      "stpl_type": "Plan",
+      "stpl_type": "Rådgivning",
       "bid_mode": "Vurdér",
-      "link": "https://dagsordener.vejle.dk/#/meeting/6b2ff46c-56d5-4a87-aa91-04832682d94a",
+      "link": "https://dagsorden.samsoe.dk/#/meeting/0779d9da-39a3-4631-8586-014c496f5d7b",
       "kontaktperson": "",
-      "resume": "Vejle Fjord og Vejle Ådal er i en ny Udviklingsplan for Jyllands østkyst (pixiudgave af Udviklingsplanen vedhæftet) udpeget som et turismekraftcenter med særlige potentialer. Udviklingsplanen er udarbejdet på vegne af Dansk Kyst- og Naturturisme, Realdania, seks turistdestinationsselskaber samt 2...",
+      "resume": "Som en del af projekt bæredygtig turisme blev der primo 2025 søgt om og bevilget en ekstern rådgiver til at se på cykelinfrastrukturen til/fra Sælvig Havn. Der blev udarbejdet 2 projekter - dels på selve Sælvig Havn og ved vejkrydset Sælvig-Havvejen. Der blev søgt om puljemidler til disse 2 proje...",
+      "sagsfremstilling": "Som en del af projekt bæredygtig turisme blev der primo 2025 søgt om og bevilget en ekstern rådgiver til at se på cykelinfrastrukturen til/fra Sælvig Havn. Der blev udarbejdet 2 projekter - dels på selve Sælvig Havn og ved vejkrydset Sælvig-Havvejen. Der blev søgt om puljemidler til disse 2 projekter (skitser vedlagt som bilag) og bevilling blev modtaget i oktober 2025 (bevillinger vedlagt som bilag).",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
-        "konsulentbistand"
+        "ekstern\\s+rådgiv",
+        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
       ],
       "fagomraade_keywords": [
-        "planlægning",
-        "landskabsanalyse",
-        "infrastruktur"
+        "byfornyelse"
       ],
       "status": "ny"
     },
     {
-      "id": "Vejle_01.02.05-P16-12-24_2026-03-16",
-      "kommune": "Vejle",
-      "udvalg": "Økonomi & Erhvervsudvalget ",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "55",
-      "titel": "Endelig vedtagelse af lokalplan nr. 1425 og tillæg nr. 2 til Vejle Kommuneplan 2025-2037 med miljøvurdering – Rekreativt område ved Herningvej, Jelling",
-      "sagsnr": "01.02.05-P16-12-24",
-      "indstilling": "",
-      "beslutning": "Anbefales.",
+      "id": "Langeland_26/1384_2026-03-23",
+      "kommune": "Langeland",
+      "udvalg": "Kommunalbestyrelsen",
+      "moede_dato": "2026-03-23",
+      "punkt_nr": "130",
+      "titel": "SHORES",
+      "sagsnr": "26/1384",
+      "indstilling": "Direktionen indstiller, at Erhvervs- og Kulturudvalget anbefaler til Økonomiudvalget og Kommunalbestyrelsen, at: Processen omkring og byggeriet af Springet, Loungen og Hytten i regi af SHORES igangsæt",
+      "beslutning": "",
       "stpl_score": 4,
       "stpl_type": "Plan",
       "bid_mode": "Alene",
-      "link": "https://dagsordener.vejle.dk/#/meeting/6b2ff46c-56d5-4a87-aa91-04832682d94a",
+      "link": "https://dagsordener.langelandkommune.dk/#/meeting/45e041f0-e51e-45be-b836-98d91f7ef039",
       "kontaktperson": "",
-      "resume": "Figur 1: Kort over plan-/projektområdets afgrænsning. Projektets/planens historik Økonomiudvalget besluttede på mødet den 8. marts 2024, pkt. nr. 78 at tildele en anlægsbevilling på 1 mio. kroner til forundersøgelser mht. mulighed for etablering af en ny festivalplads i Jelling, herunder skitsepr...",
+      "resume": "Dette punkt omhandler stillingtagen til udmøntning af SHORES faciliteter.",
+      "sagsfremstilling": "Der har i en årrække været arbejdet med at skabe fysiske faciliteter til SHORES, og det er nu muligt at igangsætte fase 1. Oprindeligt var der 5 SHORES faciliteter i fase 1, disse foreslås reduceret til 3 med denne sagsfremstilling. De 5 faciliteter var: Springet, Boardwalken, Dækket, Loungen og Hytten.",
+      "indstilling_fuld": "Direktionen indstiller, at Erhvervs- og Kulturudvalget anbefaler til Økonomiudvalget og Kommunalbestyrelsen, at: Processen omkring og byggeriet af Springet, Loungen og Hytten i regi af SHORES igangsættes",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
         "lokalplan",
-        "kommuneplan",
-        "miljøvurdering",
-        "miljørapport",
-        "miljøscreening",
-        "vandværk",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Vejle_01.02.05-P16-1-25_2026-03-16",
-      "kommune": "Vejle",
-      "udvalg": "Økonomi & Erhvervsudvalget ",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "59",
-      "titel": "Forslag til lokalplan nr. 1428 Boligområde ved Ringivevej, Give syd, Give",
-      "sagsnr": "01.02.05-P16-1-25",
-      "indstilling": "",
-      "beslutning": "Anbefales.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.vejle.dk/#/meeting/6b2ff46c-56d5-4a87-aa91-04832682d94a",
-      "kontaktperson": "",
-      "resume": "Figur 1: Lokalplanens afgrænsning. Planens historik Teknisk Udvalg besluttede på mødet 4. februar 2025, pkt. nr. 15, at igangsætte udarbejdelse af lokalplan nr. 1428. Lokalplanens indhold Da der er efterspørgsel på boliger i Give og et behov for samle boldbaner ved idrætscentret skal lokalplanen ...",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "kommuneplan",
-        "byudvikling",
         "helhedsplan",
-        "miljøvurdering"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Allerød_24/8138_2026-03-17",
-      "kommune": "Allerød",
-      "udvalg": "Aktuel Byrådsperiode (2026-2029)",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "9",
-      "titel": "Styrket kommunalt beredskab - ansættelse af beredskabskoordinator og proces for det videre arbejde",
-      "sagsnr": "24/8138",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.alleroed.dk/#/meeting/1fbe6f9e-ff7a-4327-bbf8-cb65431d0494",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "afsæt(?:te|tes)\\s+midler.*(?:rådgiv|kons"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "forsyning",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Allerød_23/5807_2026-03-17",
-      "kommune": "Allerød",
-      "udvalg": "Aktuel Byrådsperiode (2026-2029)",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "16",
-      "titel": "Beslutning: Det nye Firkløver - de næste skridt",
-      "sagsnr": "23/5807",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Bygherrerådgivning",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.alleroed.dk/#/meeting/1fbe6f9e-ff7a-4327-bbf8-cb65431d0494",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "bygherrerådgivning",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Ballerup_82.20.00-P20-16-24_2026-03-17",
-      "kommune": "Ballerup",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "14",
-      "titel": "Genudbud af lethal",
-      "sagsnr": "82.20.00-P20-16-24",
-      "indstilling": "Center for Ejendomme og Center for Kultur, Idræt og Fritid indstiller, at",
-      "beslutning": "Sagen sendes tilbage til administrationen. Ny sag forelægges med en oversigtlig beskrivelse af de tidligere fremsatte priser på renovering og nybyg, priser for privat leje og evt. nye nøgletal for nyb",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Alene",
-      "link": "https://dagsorden.ballerup.dk/#/meeting/d5448b4e-8ed6-4863-a98c-55a71e7355fd",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "under\\s+tærskelværdi",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)",
-        "igangsæt(?:te|telse)\\s+(?:af\\s+)?udbud"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Ballerup_82.19.00-P20-1-25_2026-03-17",
-      "kommune": "Ballerup",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "18",
-      "titel": "Opfølgning på indeklima skoler 2025",
-      "sagsnr": "82.19.00-P20-1-25",
-      "indstilling": "Center for Ejendomme indstiller, at",
-      "beslutning": "Indstillingen godkendt",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsorden.ballerup.dk/#/meeting/d5448b4e-8ed6-4863-a98c-55a71e7355fd",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Horsens_85.15.00-A00-1-26_2026-03-17",
-      "kommune": "Horsens",
-      "udvalg": "Byråd og politiske udvalg",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "13",
-      "titel": "ØK Etablering af tværkommunalt IT-serverdriftsselskab",
-      "sagsnr": "85.15.00-A00-1-26",
-      "indstilling": "Direktionen indstiller, at Byrådet godkender, at Horsens Kommune i samarbejde med de øvrige kommuner i Region Midtjylland arbejder videre med at forberede etableringen af et midtjysk IT-serverdriftsse",
-      "beslutning": "Økonomi- og Erhvervsudvalget tiltrådte indstillingen.",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.horsens.dk/#/meeting/fe653da6-e8d1-4298-ada3-89ddb37aa51f",
-      "kontaktperson": "",
-      "resume": "Med sagen forelægger direktionen forslag til beslutning om, at Horsens Kommune i samarbejde med de øvrige midtjyske kommuner arbejder videre med at forberede etableringen af et tværkommunalt IT-serverdriftsselskab. Sagen er en opfølgning på regeringens mål om etablering af IT-serverdriftsselskabe...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Odder_S2026-421_2026-03-17",
-      "kommune": "Odder",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "4",
-      "titel": "Overførsel af driftsover-/underskud fra 2025 til 2026",
-      "sagsnr": "S2026-421",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.odder.dk/#/meeting/3c0a3f65-da9e-4bbf-ab50-11fa9784f285",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Odder_S2021-27156_2026-03-17",
-      "kommune": "Odder",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "17",
-      "titel": "Genoptagelse af forslag til strukturplan for rammeområde 1.B.41 - området nord for Bendixminde og Balle Bæk",
-      "sagsnr": "S2021-27156",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.odder.dk/#/meeting/3c0a3f65-da9e-4bbf-ab50-11fa9784f285",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "kommuneplan",
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Odder_S2025-3771_2026-03-17",
-      "kommune": "Odder",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "28",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation",
-      "sagsnr": "S2025-3771",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.odder.dk/#/meeting/3c0a3f65-da9e-4bbf-ab50-11fa9784f285",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Vejen_26/1958_2026-03-17",
-      "kommune": "Vejen",
-      "udvalg": "Økonomiudvalg",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "15",
-      "titel": "Anlægsbevilling - Boligområde ved Ørstedvej i Jels (C)",
-      "sagsnr": "26/1958",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.vejen.dk/#/meeting/a4f87112-4e0e-4e47-bb88-553b43adb310",
-      "kontaktperson": "",
-      "resume": "Jels er en by i fortsat udvikling, og der er efterspørgsel på attraktive boliggrunde i byen. For at understøtte kommunens bosætningsindsats og sikre et fortsat udbud af boliggrunde foreslås det at igangsætte byggemodning af et nyt boligområde nord for Ørstedvej i Jels.",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Egedal_25/7921_2026-03-18",
-      "kommune": "Egedal",
-      "udvalg": "Byråd og udvalg 2026-2029",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "14",
-      "titel": "Genudbud af Erhvervsgrund \"del 2\" i Kong Svends Park - beslutning",
-      "sagsnr": "25/7921",
-      "indstilling": "Administrationen indstiller, at:",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.egedalkommune.dk/#/meeting/5d361714-b87b-46fc-b4f8-b733bb6f30c1",
-      "kontaktperson": "",
-      "resume": "Kong Svends Park er et erhvervsområde beliggende på Kongebakken i Smørum. Den samlede grund udgør ca. 76.000 m",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "kommuneplan",
-        "byudvikling"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Hillerød_25/13695_2026-03-18",
-      "kommune": "Hillerød",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "11",
-      "titel": "Proces for afdækning af potentiale for solceller på kommunale tage - supplerende sagsfremstilling",
-      "sagsnr": "25/13695",
-      "indstilling": "Direktionen indstiller til Økonomiudvalget at indstille til Kommunalbestyrelsen at: tage orienteringen om den forventede lovændring til efterretning tage orienteringen om kommende anlægsønske til budg",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.hillerod.dk/#/meeting/5b9c9dab-cd60-4050-ac2d-204e77b8dc05",
-      "kontaktperson": "",
-      "resume": "Den 29. august 2025 fremsatte regeringen forslag til finanslov for 2026. Heri fremgår bl.a., at regeringen ønsker at fjerne kravet om selskabsudskillelse for kommunale solcelleanlæg, så kommuner kan etablere og drive solcelleanlæg på egne bygninger uden at oprette et særskilt selskab.",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Hillerød_26/1398_2026-03-18",
-      "kommune": "Hillerød",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "19",
-      "titel": "Biodiversitetsplan - anlægsbevilling",
-      "sagsnr": "26/1398",
-      "indstilling": "Direktionen indstiller til Natur, Miljø og Klimaudvalget at indstille til Økonomiudvalget at indstille til Kommunalbestyrelsen, at der meddeles anlægsbevilling på 800.000 kr. finansieret af de afsatte",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.hillerod.dk/#/meeting/5b9c9dab-cd60-4050-ac2d-204e77b8dc05",
-      "kontaktperson": "",
-      "resume": "Sagen forelægges Natur, Miljø og Klimaudvalget, Økonomiudvalget og Kommunalbestyrelsen mhp at træffe beslutning om frigivelse af anlægsbevilling til udarbejdelse af biodiversitetsplan.",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "naturgenopretning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Holbæk_23-015841_2026-03-18",
-      "kommune": "Holbæk",
-      "udvalg": "Kommunalbestyrelse og Økonomiudvalg",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "54",
-      "titel": "Beslutning om bevilling af 8,5 mio. kr. til etablering af Kystliv Holbæk etape 2",
-      "sagsnr": "23-015841",
-      "indstilling": "",
-      "beslutning": "A stillede følgende ændringsforslag: ”Finansieringen gives som en tillægsbevilling, som skal finansieres af udskudte projekter, og pengene skal findes i det kommende budget og tilbageføres” Hovedindst",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.holbaek.dk/#/meeting/d705bc87-7cd4-4180-a8f8-a6f6a736f84e",
-      "kontaktperson": "",
-      "resume": "Indstilling Administrationen indstiller, at: 1. Tilbud på Etablering af Kystliv etape 2 accepteres og projektet igangsættes. 2. Der omprioriteres rådighedsbeløb og frigives anlægsbevilling på 6,5 mio. kr. fra Kapacitetstilpasning dagtilbud under Børne- og Familieudvalget til Etablering af Kystliv...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Holstebro_00.17.00-G01-1-26_2026-03-18",
-      "kommune": "Holstebro",
-      "udvalg": "Byråd og udvalg",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "18",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation",
-      "sagsnr": "00.17.00-G01-1-26",
-      "indstilling": "Det indstilles, at:",
-      "beslutning": "Fra forvaltningen deltog vicekommunaldirektør Claus Brandt. Sagen sendes til Byrådet med anbefaling af indstillingen.",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.holstebro.dk/#/meeting/f7d9007f-44b8-4d49-90eb-2028b575acff",
-      "kontaktperson": "",
-      "resume": "CB/NK - ØK - BY Der skal træffes principbeslutning om, at Holstebro Kommune i samarbejde med de øvrige midtjyske kommuner arbejder videre med at forberede etablering af - og indgå i - en tværkommunal IT-serviceorganisation. Såfremt Holstebro Kommune med de øvrige kommuner, skal kunne levere på re...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Nordfyns_S2025-10053_2026-03-18",
-      "kommune": "Nordfyns",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "51",
-      "titel": "Klima - Bogense Kystdiger - ansøgning om tillægsbevilling til anlægsprojektet (Procesudgifter)",
-      "sagsnr": "S2025-10053",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Miljø",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.nordfynskommune.dk/#/meeting/719a30e4-3c6b-48a3-88cc-f3ee4c82ee0f",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "klimatilpasning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Nordfyns_S2024-813_2026-03-18",
-      "kommune": "Nordfyns",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "59",
-      "titel": "Justering af anlægsprojekt Nyt Sundheds- og personalefaciliteter i Otterup",
-      "sagsnr": "S2024-813",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.nordfynskommune.dk/#/meeting/719a30e4-3c6b-48a3-88cc-f3ee4c82ee0f",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "rådgiver(?:ydelse|kontrakt|opgave)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "helhedsplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Rebild_01.02.05-P16-3-24_2026-03-18",
-      "kommune": "Rebild",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "42",
-      "titel": "Beslutningssag: Forslag til lokalplan nr. 367 og kommuneplantillæg nr. 2 for boligområde ved Anlægsvej, Suldrup",
-      "sagsnr": "01.02.05-P16-3-24",
-      "indstilling": "Forvaltningen indstiller, at Plan-, Klima- og Miljøudvalget anbefaler Økonomiudvalg og byråd at forslag til tillæg nr. 2 til Kommuneplan 2025 og lokalplan nr. 367 sendes i offentlig høring i 8 uger. B",
-      "beslutning": "Indstilles til byrådets godkendelse.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.rebild.dk/#/meeting/21204136-acd7-4181-b833-d75bee098c6e",
-      "kontaktperson": "",
-      "resume": "Forvaltningen har udarbejdet et forslag til lokalplan nr. 367 og tillæg nr. 2 til Kommuneplan 2025. Planforslagene giver mulighed for et nyt boligområde med åben-lav og tæt-lav boliger ved Anlægsvej i Suldrup. Der skal tages stilling til, om planforslagene skal sendes i offentlig høring.",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "kommuneplan",
-        "planlægning",
-        "miljøvurdering",
-        "vandværk",
-        "grundvandsbeskyttelse"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Roskilde_25-023053_2026-03-18",
-      "kommune": "Roskilde",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "103",
-      "titel": "Anlægsbevilling -  Byggemodning Trekroner Nordøst",
-      "sagsnr": "25-023053",
-      "indstilling": "",
-      "beslutning": "Anbefales. Fraværende: Merete Dea Larsen (O), Jette Tjørnelund (V) Stedfortræder: Bent Jørgensen (V)",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.roskilde.dk/#/meeting/cbecb0e0-3020-4f38-8b2f-853bc0146382",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Roskilde_26-001808_2026-03-18",
-      "kommune": "Roskilde",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "104",
-      "titel": "Anlægsbevilling til projekter i Grøn Trepart",
-      "sagsnr": "26-001808",
-      "indstilling": "",
-      "beslutning": "Anbefales. Fraværende: Merete Dea Larsen (O), Jette Tjørnelund (V) Stedfortræder: Bent Jørgensen (V)",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.roskilde.dk/#/meeting/cbecb0e0-3020-4f38-8b2f-853bc0146382",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Rudersdal_00.22.00-P35-498920_2026-03-18",
-      "kommune": "Rudersdal",
-      "udvalg": "Kommunalbestyrelse 2026-2029",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "25",
-      "titel": "Mindre trafiksikkerhedsprojekter 2026 - Anlægsbevilling",
-      "sagsnr": "00.22.00-P35-498920",
-      "indstilling": "Direktionen foreslår indstillet, at der gives en anlægsbevilling på 2.050.000 kr. til projekt 152082, Trafik- og miljøhandlingsplan for Rudersdal, trafikforanstaltninger, til udførsel af ovennævnte pr",
-      "beslutning": "Økonomiudvalget indstiller Arkitektur- og Byplanudvalgets indstilling tiltrådt. Christoffer Emil Jexen (Ø) deltog ikke i punktets behandling.",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.rudersdal.dk/#/meeting/7dd282c2-10e1-4caa-89cc-50441ab623d1",
-      "kontaktperson": "",
-      "resume": "I budgettet for 2026 er der afsat et rådighedsbeløb på 4.000.000 kr. til trafiksikkerhedsprojekter.",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "mobilitetsplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Rudersdal_00.22.00-P35-498920_2026-03-18",
-      "kommune": "Rudersdal",
-      "udvalg": "Kommunalbestyrelse 2026-2029",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "27",
-      "titel": "Renovering af vejnettet og bevarelse af vejkapitalen – Anlægsbevilling",
-      "sagsnr": "00.22.00-P35-498920",
-      "indstilling": "Direktionen foreslår indstillet,",
-      "beslutning": "Økonomiudvalget indstiller Arkitektur- og Byplanudvalgets indstilling tiltrådt. Christoffer Emil Jexen (Ø) deltog ikke i punktets behandling.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.rudersdal.dk/#/meeting/7dd282c2-10e1-4caa-89cc-50441ab623d1",
-      "kontaktperson": "",
-      "resume": "Forvaltningen har nu planlagt årets renoveringer af vejnettet til bevarelse af vejkapitalen. Til disse arbejder søges en anlægsbevilling på 9,513 mio. kr. finansieret af projekt 152271 - Renovering af vejnettet og bevarelse af vejkapitalen. Der orienteres i sagen endvidere om tilstanden af asfalt...",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "spildevand",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Skanderborg_85.11.06-G01-14-26_2026-03-18",
-      "kommune": "Skanderborg",
-      "udvalg": "     Økonomi- og Erhvervsudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "49",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation (1. behandling - Midtjylland)",
-      "sagsnr": "85.11.06-G01-14-26",
-      "indstilling": "Chefen for Økonomi, Digitalisering og Indkøb indstiller, at Byrådet tilkendegiver, at det har til hensigt at indgå samarbejde med kommunerne i Region Midtjylland om at indgå i oprettelsen af en midtjy",
-      "beslutning": "Økonomi- og Erhvervsudvalget vedtog at indstille,",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.skanderborg.dk/#/meeting/188e5bad-b31a-46c3-8903-e1142049601f",
-      "kontaktperson": "",
-      "resume": "Baggrund Såfremt Skanderborg Kommune sammen med de øvrige kommuner skal kunne levere på regeringens mål om etablering af en IT-serviceorganisation pr. 1. januar 2027, vurderes det afgørende, at Skanderborg Byråd tilkendegiver, at der kan arbejdes videre med de retningsgivende spor i nærværende in...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Slagelse_26-002542_2026-03-18",
-      "kommune": "Slagelse",
-      "udvalg": "  Byråd",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "4",
-      "titel": "Anlægsbevilling til Sygehusets Børneinstitution til udskiftning af ventilationsanlæg (B)",
-      "sagsnr": "26-002542",
-      "indstilling": "",
-      "beslutning": "Byrådet drøftede Johnny Persson´s (V) habilitet og konkluderede, at Johnny Persson (V) ikke var inhabil i sagen. At 1: Godkendt. Afbud: Troels Brandt (Stedfortræder: Poul Arne Bødker), Henrik Broderse",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.slagelse.dk/#/meeting/2161ad4e-d728-4bc3-b5cc-48490b158271",
-      "kontaktperson": "",
-      "resume": "Kompetence",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Stevns_00.17.00-A00-1-26_2026-03-18",
-      "kommune": "Stevns",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "46",
-      "titel": "Forpligtende samarbejde, etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland, Beslutning",
-      "sagsnr": "00.17.00-A00-1-26",
-      "indstilling": "Forvaltningen indstiller, at Kommunalbestyrelsen godkender, at Stevns Kommune indgår i forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjællan",
-      "beslutning": "Ikke til stede: Steen S. Hansen (A) og Line Krogh Lay (B). Udvalget anbefaler indstillingen.",
-      "stpl_score": 4,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.stevns.dk/#/meeting/4c160d0b-11fb-4e2e-a1da-e52c0c9f56cb",
-      "kontaktperson": "",
-      "resume": "Cybersikkerhed var et centralt tema i årets økonomiforhandlinger. Det blev aftalt i økonomiaftalen, at kommunerne senest den 1. januar 2027 skal etablere 4-5 kommunale it-serviceorganisationer med geografisk udgangspunkt i de fire regioner. Alternativt vil regeringen arbejde for at lovgive om det...",
-      "indkoeb_keywords": [
-        "konsulentbistand",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Viborg_26/3077_2026-03-18",
-      "kommune": "Viborg",
-      "udvalg": "Økonomi- og Erhvervsudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "18",
-      "titel": "Igangsætning af udbudsproces for Overlund halgrund",
-      "sagsnr": "26/3077",
-      "indstilling": "Direktøren for Teknik og Miljø foreslår, at Teknisk Udvalg indstiller til byrådet,",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.viborg.dk/#/meeting/272c4fcd-dc66-492a-9741-6fcdf55cdc12",
-      "kontaktperson": "",
-      "resume": "Byrådet har tidligere vedtaget en visionsplan for Overlund skolegrund og halgrund. Forvaltningen foreslår, at der igangsættes udbud af Overlund halgrund med afsæt i visionsplanen.",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "kommuneplan",
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Viborg_26/5534_2026-03-18",
-      "kommune": "Viborg",
-      "udvalg": "Økonomi- og Erhvervsudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "31",
-      "titel": "It-serviceorganisationer",
-      "sagsnr": "26/5534",
-      "indstilling": "Kommunaldirektøren foreslår, at Økonomi- og Erhvervsudvalget indstiller til byrådet,",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.viborg.dk/#/meeting/272c4fcd-dc66-492a-9741-6fcdf55cdc12",
-      "kontaktperson": "",
-      "resume": "Der skal træffes principbeslutning om, at Viborg Kommune i samarbejde med de øvrige midtjyske kommuner arbejder videre med at forberede etablering af - og indgå i - en tværkommunal it-serviceorganisation.",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Dragør_26/531_2026-03-19",
-      "kommune": "Dragør",
-      "udvalg": "2. Økonomiudvalget",
-      "moede_dato": "2026-03-19",
-      "punkt_nr": "13",
-      "titel": "Beslutning - Stillingtagen til økonomisk støtte fra Finanslovspuljer 2026",
-      "sagsnr": "26/531",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.dragoer.dk/#/meeting/139029f6-f0b8-43da-b5e8-322588a2f16b",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "kulturmiljø"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_82.07.00-P20-137-25_2026-03-19",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-19",
-      "punkt_nr": "11",
-      "titel": "Projektering af renovering af Lindegårdsskolen - Anlægsbevilling (Beslutning)",
-      "sagsnr": "82.07.00-P20-137-25",
-      "indstilling": "Forvaltningen foreslår, at der gives en anlægsbevilling på 1 mio. kr. i 2026 til projektering af udbedringen af etagedækkene på Lindegårdsskolen, finansieret af anlægspuljen til uforudsete udgifter i ",
-      "beslutning": "Udsat til det ekstraordinære Økonomiudvalgsmøde den 26. marts.",
-      "stpl_score": 4,
-      "stpl_type": "Miljø",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.ltk.dk/#/meeting/949e97fc-eff7-4d26-bfa1-ab6157649541",
-      "kontaktperson": "",
-      "resume": "I november 2025 blev der konstateret nedbøjning i gulvkonstruktionen i den ældste af bygningerne på Lindegårdsskolen. Forvaltningen har med bistand fra ekstern rådgiver gennemført en række undersøgelser. De peger på, at nedbøjningen kan henføres til konstruktionen af betondækkene fra 1932 i denne...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "miljøscreening"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_03.10.00-K08-29-25_2026-03-19",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-19",
-      "punkt_nr": "12",
-      "titel": "Almenbo, afdeling Lundtofteparken - salg af areal til dagligvarebutik (Beslutning)",
-      "sagsnr": "03.10.00-K08-29-25",
-      "indstilling": "Forvaltningen foreslår, at Boligselskabet Almenbos salg af et areal på 1.250 m2 i afdeling Lundtofteparken til Rema Etabling A/S eller ordre godkendes.",
-      "beslutning": "Anbefalet. Anette Skafte (O) vurderes at være inhabil og forlod mødet under punktets behandling.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.ltk.dk/#/meeting/949e97fc-eff7-4d26-bfa1-ab6157649541",
-      "kontaktperson": "",
-      "resume": "Boligselskabet Almenbo har ansøgt om godkendelse af salg af erhvervs- og parkeringsareal i Lundtofteparken til Rema Etablering A/S, som ønsker at etablere en ny udvidet dagligvarebutik i afdelingen. Det er en forudsætning for salget, at Kommunalbestyrelsen godkender afhændelsen af arealet.",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "planstrategi",
-        "byudvikling"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Greve_25-008259_2026-03-23",
-      "kommune": "Greve",
-      "udvalg": "Byråd og Udvalg 2026 - 2029",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "8",
-      "titel": "Krogårdskolen – PCB-renovering, anlægsbevilling og tillægsbevilling",
-      "sagsnr": "25-008259",
-      "indstilling": "",
-      "beslutning": "1.-4. Anbefales.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.greve.dk/#/meeting/77541288-b456-4d87-83f0-043a3c4f08fa",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "helhedsplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Greve_26-002116_2026-03-23",
-      "kommune": "Greve",
-      "udvalg": "Byråd og Udvalg 2026 - 2029",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "10",
-      "titel": "Eriksminde børnehus, renovering af klimaskærm, anlægsbevilling",
-      "sagsnr": "26-002116",
-      "indstilling": "",
-      "beslutning": "1.-4. Anbefales.",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.greve.dk/#/meeting/77541288-b456-4d87-83f0-043a3c4f08fa",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek",
-        "tildel(?:e|ing).*rådgiv"
-      ],
-      "fagomraade_keywords": [
         "bygherrerådgivning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Greve_22-006033_2026-03-23",
-      "kommune": "Greve",
-      "udvalg": "Byråd og Udvalg 2026 - 2029",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "11",
-      "titel": "Bygningsoptimering af skoler og dagtilbud, opdatering af tiårsplanen",
-      "sagsnr": "22-006033",
-      "indstilling": "",
-      "beslutning": "1.-3. Anbefales.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.greve.dk/#/meeting/77541288-b456-4d87-83f0-043a3c4f08fa",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "afsæt(?:te|tes)\\s+midler.*(?:rådgiv|kons",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Herning_04.10.10-G00-1-24_2026-03-23",
-      "kommune": "Herning",
-      "udvalg": "Miljø-, Infrastruktur- og Naturudvalget",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "45",
-      "titel": "Frigivelse af anlægsbevilling til skovrejsning af Følpøt Skov ved Kibæk",
-      "sagsnr": "04.10.10-G00-1-24",
-      "indstilling": "",
-      "beslutning": "Indstillingen er tiltrådt.",
-      "stpl_score": 4,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.herning.dk/#/meeting/61b00270-14d7-4f7e-a73f-aa00efb0dc9c",
-      "kontaktperson": "",
-      "resume": "På møde den 18. marts 2024, punkt 54, godkendte Miljø-, Infrastruktur- og Naturudvalget planerne for skovrejsningsprojektet \"Følpøt Skov\", beliggende på Herning Kommunes arealer, nord for Kibæk. Der er opnået tilsagn om støtte til skovrejsningen fra Klimaskovfonden (bilag 1) og Growing Trees Netw...",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Holstebro_00.17.00-G01-1-26_2026-03-23",
-      "kommune": "Holstebro",
-      "udvalg": "Byråd og udvalg",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "17",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation",
-      "sagsnr": "00.17.00-G01-1-26",
-      "indstilling": "Økonomiudvalget indstiller, at:",
-      "beslutning": "Godkendt som indstillet. Jesper Hebsgaard Pedersen (V) deltog ikke ved sagens behandling.",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.holstebro.dk/#/meeting/d1de1967-829a-4b0b-96b0-efd49baba01e",
-      "kontaktperson": "",
-      "resume": "CB/NK - ØK - BY Der skal træffes principbeslutning om, at Holstebro Kommune i samarbejde med de øvrige midtjyske kommuner arbejder videre med at forberede etablering af - og indgå i - en tværkommunal IT-serviceorganisation. Såfremt Holstebro Kommune med de øvrige kommuner, skal kunne levere på re...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Middelfart_2026-004304_2026-03-23",
-      "kommune": "Middelfart",
-      "udvalg": "Byrådet og politiske udvalg",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "28",
-      "titel": "Regnskab 2025 for Middelfart Kommune (samlet årsberetning)",
-      "sagsnr": "2026-004304",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.middelfart.dk/#/meeting/b0e726fa-1955-4e52-a751-0438b68f27bd",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "byudvikling",
-        "forsyning"
       ],
       "status": "ny"
     },
@@ -1648,194 +202,16 @@
       "link": "https://dagsordener.middelfart.dk/#/meeting/b0e726fa-1955-4e52-a751-0438b68f27bd",
       "kontaktperson": "",
       "resume": "",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
         "lokalplan",
         "kommuneplan",
-        "planlægning",
         "vandværk"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Randers_04.01.10-P20-1-23_2026-03-23",
-      "kommune": "Randers",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "106",
-      "titel": "Badesø på Nordre Fælled - udbud af totalrådgivning samt bevilling",
-      "sagsnr": "04.01.10-P20-1-23",
-      "indstilling": "Forvaltningen indstiller til byrådet via miljø- og teknikudvalget og økonomiudvalget at der igangsættes et EU-udbud af totalrådgivning for projekt ”Spring ud i det - badesø på Nordre Fælled\" med udgan",
-      "beslutning": "Ændringsforslag fra Socialistisk Folkeparti om, at bedømmelsesudvalget består af formanden for miljø- og teknikudvalget samt et medlem fra valggruppe 2 blev godkendt. Karen Lagoni (A) deltog som stedf",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.randers.dk/#/meeting/247cd5a9-c940-4993-9416-e7bb44a26d3f",
-      "kontaktperson": "",
-      "resume": "Randers Kommune modtog i 2023 tilsagn fra A. P. Møller Fonden om støtte til projektet ”Spring ud i det - badesø på Nordre Fælled\". I 2025 har Lokale- og Anlægsfonden derudover givet tilsagn om yderligere støtte, som muliggør en udvidelse af projektet, så det er muligt at løfte hele Nordre Fælled ...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Randers_85.15.00-A00-1-26_2026-03-23",
-      "kommune": "Randers",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "116",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation",
-      "sagsnr": "85.15.00-A00-1-26",
-      "indstilling": "Det indstilles til byrådet via økonomiudvalget, At det tilkendegives, at Randers Kommune har til hensigt at indgå samarbejde med kommunerne i Region Midtjylland om at indgå i oprettelsen af en midtjys",
-      "beslutning": "Godkendt. Louise Høeg (V) deltog ikke i sagens behandling. Karen Lagoni (A) deltog som stedfortræder for Torben Hansen (A).",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.randers.dk/#/meeting/247cd5a9-c940-4993-9416-e7bb44a26d3f",
-      "kontaktperson": "",
-      "resume": "1. Hvorfor fremsendes indstillingen? I økonomiaftalen mellem regeringen og kommunerne for 2026 (ØA26) er det aftalt, at ”kommunerne senest d. 1. januar 2027 vil etablere sig i nye, tværkommunale samarbejder i form af 4-5 kommunale it-serviceorganisationer med geografisk udgangspunkt i de fire reg...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Randers_00.01.00-S55-3-26_2026-03-23",
-      "kommune": "Randers",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "117",
-      "titel": "Finansrapport 2025 og restlåneoptagelse vedr. låneramme 2025",
-      "sagsnr": "00.01.00-S55-3-26",
-      "indstilling": "Forvaltningen indstiller til byrådet via økonomiudvalget at finansrapporten for 2025 tages til efterretning, at der gives anlægsbevilling til lånoptagelse på 47,3 mio. kr. vedr. den ordinære låneramme",
-      "beslutning": "Ændringsforslag fra Østbroen om at budgetvedtagelsen fra 2019-2022 ophører vedr. låneoptag i Havnearealer tilgår opsparing til Klimabroen, og at de derfor tilgår anden prioriteringer som eks. Byg.vedl",
-      "stpl_score": 4,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.randers.dk/#/meeting/247cd5a9-c940-4993-9416-e7bb44a26d3f",
-      "kontaktperson": "",
-      "resume": "Nedenfor beskrives resultatet for 2025 opdelt på henholdsvis aktiv- og passiv-siden. Aktivsiden På aktivsiden redegøres der for afkastet på PM-aftalerne (portefølje i ekstern kapitalforvaltning) samt afkastet på kommunens korte obligationsbeholdning. Randers Kommune har PM-aftaler med hhv. Nordea...",
-      "indkoeb_keywords": [
-        "tilbudsindhentning",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Ringsted_26-001095_2026-03-23",
-      "kommune": "Ringsted",
-      "udvalg": "Byråd og Økonomiudvalg",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "7",
-      "titel": "Godkendelse af udbudsplan 2026 (ALLE)",
-      "sagsnr": "26-001095",
-      "indstilling": "",
-      "beslutning": "Ad 1: Udbudspraksis på områderne foregår som hidtil. Ad 2: Godkendt.",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.ringsted.dk/#/meeting/09146998-8085-42b2-b0fc-5aa9f0834799",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "tilbudsindhentning",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)",
-        "godkend(?:e|else)\\s+(?:af\\s+)?udbud"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Solrød_17.03.08-A00-1-25_2026-03-23",
-      "kommune": "Solrød",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "65",
-      "titel": "Godkendelse af udvidelse af H-sporet på Uglegårdsskolen - tillægsbevilling",
-      "sagsnr": "17.03.08-A00-1-25",
-      "indstilling": "Administrationen indstiller, at: Udvidelse af H-klassen fra den 1. august 2026 godkendes. Driftsudgift på 1.985.000 kr. i 2026 og efterfølgende årlig udgift på 4.764.000 kr., godkendes. Driftsudgift t",
-      "beslutning": "Beslutning fra Økonomi- og personaleudvalget, 16. marts 2026, pkt. 40:",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.solrod.dk/#/meeting/05fe6029-4edd-4e10-b825-9656cdc16a3c",
-      "kontaktperson": "",
-      "resume": "Byrådet godkendte den 26. marts 2025 at oprette et særligt tilbud fra skoleåret 2025/26 for 4-5 børn med så særlige udfordringer, at de ikke kan rummes i kommunens øvrige tilbud. Tilbuddet blev til H-klassen, som har været i gang siden foråret 2025 og er placeret midlertidigt på Uglegårdsskolen. ...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Svendborg_25/3389_2026-03-23",
-      "kommune": "Svendborg",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "8",
-      "titel": "8. Igangsættelse af arbejdet med klimarobusthed og udskydelse af revision af Klimahandleplan 2022",
-      "sagsnr": "25/3389",
-      "indstilling": "Direktionen indstiller til Teknik- og Miljøudvalget, at det overfor Økonomiudvalget og Kommunalbestyrelsen anbefales, At revision af Svendborg Kommunes Klimahandleplan 2022 udskydes til primo 2028.",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.svendborg.dk/#/meeting/29df5779-650c-4118-8eb2-5032685a5474",
-      "kontaktperson": "",
-      "resume": "Kommunalbestyrelsen vedtog i september 2022 Svendborg Kommunes første klimahandleplan. Med",
-      "indkoeb_keywords": [
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "kommuneplan",
-        "klimatilpasning",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Vejen_26/1958_2026-03-23",
-      "kommune": "Vejen",
-      "udvalg": "Byrådet 2026-2029",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "8",
-      "titel": "8. Anlægsbevilling - Boligområde ved Ørstedvej i Jels (C)",
-      "sagsnr": "26/1958",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.vejen.dk/#/meeting/20d0dba1-c2b2-42fa-b4f7-b19744601085",
-      "kontaktperson": "",
-      "resume": "Jels er en by i fortsat udvikling, og der er efterspørgsel på attraktive boliggrunde i byen. For at understøtte kommunens bosætningsindsats og sikre et fortsat udbud af boliggrunde foreslås det at igangsætte byggemodning af et nyt boligområde nord for Ørstedvej i Jels.",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "forsyning"
       ],
       "status": "ny"
     },
@@ -1855,6 +231,9 @@
       "link": "https://dagsordener.egedalkommune.dk/#/meeting/ac5248d4-1eb5-4de2-a459-aba6255039db",
       "kontaktperson": "",
       "resume": "Kong Svends Park er et erhvervsområde beliggende på Kongebakken i Smørum. Den samlede grund udgør ca. 76.000 m",
+      "sagsfremstilling": "Kong Svends Park er et erhvervsområde beliggende på Kongebakken i Smørum. Den samlede grund udgør ca. 76.000 m",
+      "indstilling_fuld": "Administrationen indstiller, at:",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
@@ -1862,232 +241,6 @@
         "lokalplan",
         "kommuneplan",
         "byudvikling"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Hillerød_25/13695_2026-03-25",
-      "kommune": "Hillerød",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "10",
-      "titel": "Proces for afdækning af potentiale for solceller på kommunale tage - supplerende sagsfremstilling",
-      "sagsnr": "25/13695",
-      "indstilling": "Direktionen indstiller til Økonomiudvalget at indstille til Kommunalbestyrelsen at: tage orienteringen om den forventede lovændring til efterretning tage orienteringen om kommende anlægsønske til budg",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.hillerod.dk/#/meeting/e0a9b694-ea9f-4906-a4af-0a6ef71330a5",
-      "kontaktperson": "",
-      "resume": "Den 29. august 2025 fremsatte regeringen forslag til finanslov for 2026. Heri fremgår bl.a., at regeringen ønsker at fjerne kravet om selskabsudskillelse for kommunale solcelleanlæg, så kommuner kan etablere og drive solcelleanlæg på egne bygninger uden at oprette et særskilt selskab.",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Hillerød_26/1398_2026-03-25",
-      "kommune": "Hillerød",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "17",
-      "titel": "Biodiversitetsplan - anlægsbevilling",
-      "sagsnr": "26/1398",
-      "indstilling": "Direktionen indstiller til Natur, Miljø og Klimaudvalget at indstille til Økonomiudvalget at indstille til Kommunalbestyrelsen, at der meddeles anlægsbevilling på 800.000 kr. finansieret af de afsatte",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.hillerod.dk/#/meeting/e0a9b694-ea9f-4906-a4af-0a6ef71330a5",
-      "kontaktperson": "",
-      "resume": "Sagen forelægges Natur, Miljø og Klimaudvalget, Økonomiudvalget og Kommunalbestyrelsen mhp at træffe beslutning om frigivelse af anlægsbevilling til udarbejdelse af biodiversitetsplan.",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "naturgenopretning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Horsens_85.15.00-A00-1-26_2026-03-25",
-      "kommune": "Horsens",
-      "udvalg": "Byråd og politiske udvalg",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "12",
-      "titel": "ØK Etablering af tværkommunalt IT-serverdriftsselskab",
-      "sagsnr": "85.15.00-A00-1-26",
-      "indstilling": "Direktionen indstiller, at Byrådet godkender, at Horsens Kommune i samarbejde med de øvrige kommuner i Region Midtjylland arbejder videre med at forberede etableringen af et midtjysk IT-serverdriftsse",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.horsens.dk/#/meeting/39131ac6-dfba-46de-9ba1-91a8d336866a",
-      "kontaktperson": "",
-      "resume": "Med sagen forelægger direktionen forslag til beslutning om, at Horsens Kommune i samarbejde med de øvrige midtjyske kommuner arbejder videre med at forberede etableringen af et tværkommunalt IT-serverdriftsselskab. Sagen er en opfølgning på regeringens mål om etablering af IT-serverdriftsselskabe...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lemvig_85.15.00A00-1-25_2026-03-25",
-      "kommune": "Lemvig",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "28",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation",
-      "sagsnr": "85.15.00A00-1-25",
-      "indstilling": "At 1) kommunalbestyrelsen tilkendegiver, at den har til hensigt at indgå samarbejde med kommunerne i Region Midtjylland om at indgå i oprettelsen af en midtjysk IT-serviceorganisation. At 2) kommunalb",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.lemvig.dk/#/meeting/28aafec4-7b91-45b3-9c31-6a6137b326d2",
-      "kontaktperson": "",
-      "resume": "Sagen har været drøftet i digitaliseringsstyregruppen og direktionen. De anbefaler, at indstillingen følges. 1. Hvorfor fremsendes indstillingen? I økonomiaftalen mellem regeringen og kommunerne for 2026 (ØA26) er det aftalt, at ”kommunerne senest d. 1. januar 2027 vil etablere sig i nye, tværkom...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Roskilde_25-023053_2026-03-25",
-      "kommune": "Roskilde",
-      "udvalg": "Roskilde Byråd",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "73",
-      "titel": "Anlægsbevilling -  Byggemodning Trekroner Nordøst",
-      "sagsnr": "25-023053",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.roskilde.dk/#/meeting/aff4807e-b6b9-4015-9cac-cf481bd5ab98",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Roskilde_26-001808_2026-03-25",
-      "kommune": "Roskilde",
-      "udvalg": "Roskilde Byråd",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "74",
-      "titel": "Anlægsbevilling til projekter i Grøn Trepart",
-      "sagsnr": "26-001808",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.roskilde.dk/#/meeting/aff4807e-b6b9-4015-9cac-cf481bd5ab98",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Rudersdal_00.22.00-P35-498920_2026-03-25",
-      "kommune": "Rudersdal",
-      "udvalg": "Kommunalbestyrelse 2026-2029",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "11",
-      "titel": "Mindre trafiksikkerhedsprojekter 2026 - Anlægsbevilling",
-      "sagsnr": "00.22.00-P35-498920",
-      "indstilling": "Direktionen foreslår indstillet, at der gives en anlægsbevilling på 2.050.000 kr. til projekt 152082, Trafik- og miljøhandlingsplan for Rudersdal, trafikforanstaltninger, til udførsel af ovennævnte pr",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.rudersdal.dk/#/meeting/86f7d397-ef75-45c5-aff6-bc5800b5e5af",
-      "kontaktperson": "",
-      "resume": "I budgettet for 2026 er der afsat et rådighedsbeløb på 4.000.000 kr. til trafiksikkerhedsprojekter.",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "mobilitetsplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Rudersdal_00.22.00-P35-498920_2026-03-25",
-      "kommune": "Rudersdal",
-      "udvalg": "Kommunalbestyrelse 2026-2029",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "12",
-      "titel": "Renovering af vejnettet og bevarelse af vejkapitalen – Anlægsbevilling",
-      "sagsnr": "00.22.00-P35-498920",
-      "indstilling": "Direktionen foreslår indstillet,",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.rudersdal.dk/#/meeting/86f7d397-ef75-45c5-aff6-bc5800b5e5af",
-      "kontaktperson": "",
-      "resume": "Forvaltningen har nu planlagt årets renoveringer af vejnettet til bevarelse af vejkapitalen. Til disse arbejder søges en anlægsbevilling på 9,513 mio. kr. finansieret af projekt 152271 - Renovering af vejnettet og bevarelse af vejkapitalen. Der orienteres i sagen endvidere om tilstanden af asfalt...",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "spildevand",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Skanderborg_85.11.06-G01-14-26_2026-03-25",
-      "kommune": "Skanderborg",
-      "udvalg": "     Byrådet",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "39",
-      "titel": "Principbeslutning om etablering af IT-serviceorganisation (1. behandling - Midtjylland)",
-      "sagsnr": "85.11.06-G01-14-26",
-      "indstilling": "Chefen for Økonomi, Digitalisering og Indkøb indstiller, at Byrådet tilkendegiver, at det har til hensigt at indgå samarbejde med kommunerne i Region Midtjylland om at indgå i oprettelsen af en midtjy",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.skanderborg.dk/#/meeting/8bfeed42-aef1-40e8-b8c8-c63a41850386",
-      "kontaktperson": "",
-      "resume": "Baggrund Såfremt Skanderborg Kommune sammen med de øvrige kommuner skal kunne levere på regeringens mål om etablering af en IT-serviceorganisation pr. 1. januar 2027, vurderes det afgørende, at Skanderborg Byråd tilkendegiver, at der kan arbejdes videre med de retningsgivende spor i nærværende in...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
       ],
       "status": "ny"
     },
@@ -2107,6 +260,9 @@
       "link": "https://dagsordener.vejle.dk/#/meeting/5608e06a-8029-4895-9ca1-fc5377e2d81e",
       "kontaktperson": "",
       "resume": "Figur 1: Kort over plan-/projektområdets afgrænsning. Projektets/planens historik Økonomiudvalget besluttede på mødet den 8. marts 2024, pkt. nr. 78 at tildele en anlægsbevilling på 1 mio. kroner til forundersøgelser mht. mulighed for etablering af en ny festivalplads i Jelling, herunder skitsepr...",
+      "sagsfremstilling": "Figur 1: Kort over plan-/projektområdets afgrænsning. Projektets/planens historik Økonomiudvalget besluttede på mødet den 8. marts 2024, pkt. nr. 78 at tildele en anlægsbevilling på 1 mio. kroner til forundersøgelser mht. mulighed for etablering af en ny festivalplads i Jelling, herunder skitseprojekt, miljøscreening og udbud af terrænforberedelser. Teknisk Udvalg besluttede på mødet den 13. august 2024, pkt. nr. 157 at opstarte en lokalplan med tilhørende kommuneplantillæg for et rekreativt område nord for Jelling. Økonomiudvalget besluttede på mødet den 26. august 2024, pkt. nr. 206 at opstarte en lokalplan med tilhørende kommuneplantillæg for et rekreativt område nord for Jelling. Byrådet besluttede på mødet den 29. oktober 2025, pkt. 214 at sende lokalplanen, tillægget, miljørapporten og § 25-tilladelsen i offentlig høring. Lokalplanen, tillægget, miljørapporten og § 25-tilladelsen har været i offentlig høring fra den 5. november 2025 til den 7. januar 2026. Der blev afholdt borgermøde den 27. november 2025. Indsigelser/bemærkninger til lokalplanen, tillægget, miljørapporten og § 25-tilladelsen Der er modtaget 9",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
@@ -2116,113 +272,7 @@
         "miljøvurdering",
         "miljørapport",
         "miljøscreening",
-        "vandværk",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Vejle_01.02.05-P16-1-25_2026-03-25",
-      "kommune": "Vejle",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "75",
-      "titel": "Forslag til lokalplan nr. 1428 Boligområde ved Ringivevej, Give syd, Give",
-      "sagsnr": "01.02.05-P16-1-25",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.vejle.dk/#/meeting/5608e06a-8029-4895-9ca1-fc5377e2d81e",
-      "kontaktperson": "",
-      "resume": "Figur 1: Lokalplanens afgrænsning. Planens historik Teknisk Udvalg besluttede på mødet 4. februar 2025, pkt. nr. 15, at igangsætte udarbejdelse af lokalplan nr. 1428. Lokalplanens indhold Da der er efterspørgsel på boliger i Give og et behov for samle boldbaner ved idrætscentret skal lokalplanen ...",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "kommuneplan",
-        "byudvikling",
-        "helhedsplan",
-        "miljøvurdering"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Viborg_26/3077_2026-03-25",
-      "kommune": "Viborg",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "15",
-      "titel": "Igangsætning af udbudsproces for Overlund halgrund",
-      "sagsnr": "26/3077",
-      "indstilling": "Direktøren for Teknik og Miljø foreslår, at Teknisk Udvalg indstiller til byrådet,",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.viborg.dk/#/meeting/9ab5753a-204f-4711-86a9-cbbea994b688",
-      "kontaktperson": "",
-      "resume": "Byrådet har tidligere vedtaget en visionsplan for Overlund skolegrund og halgrund. Forvaltningen foreslår, at der igangsættes udbud af Overlund halgrund med afsæt i visionsplanen.",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "kommuneplan",
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Viborg_26/5534_2026-03-25",
-      "kommune": "Viborg",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "23",
-      "titel": "It-serviceorganisationer",
-      "sagsnr": "26/5534",
-      "indstilling": "Kommunaldirektøren foreslår, at Økonomi- og Erhvervsudvalget indstiller til byrådet,",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.viborg.dk/#/meeting/9ab5753a-204f-4711-86a9-cbbea994b688",
-      "kontaktperson": "",
-      "resume": "Der skal træffes principbeslutning om, at Viborg Kommune i samarbejde med de øvrige midtjyske kommuner arbejder videre med at forberede etablering af - og indgå i - en tværkommunal it-serviceorganisation.",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Allerød_24/8138_2026-03-26",
-      "kommune": "Allerød",
-      "udvalg": "Aktuel Byrådsperiode (2026-2029)",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "4",
-      "titel": "Styrket kommunalt beredskab - ansættelse af beredskabskoordinator og proces for det videre arbejde",
-      "sagsnr": "24/8138",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.alleroed.dk/#/meeting/b39eeab7-43ca-4e51-9570-6c1fea48aa1a",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "afsæt(?:te|tes)\\s+midler.*(?:rådgiv|kons"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "forsyning",
-        "infrastruktur"
+        "vandværk"
       ],
       "status": "ny"
     },
@@ -2242,39 +292,15 @@
       "link": "https://dagsordener.brk.dk/#/meeting/f6bafabc-ef30-4c93-b685-115af87c5c5b",
       "kontaktperson": "",
       "resume": "Bornholms Regionskommune og DVB Parken har indgået en samarbejdsaftale, som blev underskrevet i slutningen af august 2025.",
+      "sagsfremstilling": "Bornholms Regionskommune og DVB Parken har indgået en samarbejdsaftale, som blev underskrevet i slutningen af august 2025.",
+      "indstilling_fuld": "Direktionen indstiller, at aftalen (jf. bilag 1) med DVB Parken om fleksibel udlejning godkendes",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
         "lokalplan",
-        "kommuneplan",
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Dragør_26/531_2026-03-26",
-      "kommune": "Dragør",
-      "udvalg": "1. Kommunalbestyrelsen",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "17",
-      "titel": "Beslutning - Stillingtagen til økonomisk støtte fra Finanslovspuljer 2026",
-      "sagsnr": "26/531",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Analyse",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.dragoer.dk/#/meeting/e7b0aca9-b345-4ec2-a0c9-3807a2193a50",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "kulturmiljø"
+        "kommuneplan"
       ],
       "status": "ny"
     },
@@ -2294,6 +320,9 @@
       "link": "https://dagsordener.haderslev.dk/#/meeting/e27f8a27-16d9-44a9-acbc-3d864806cbbf",
       "kontaktperson": "",
       "resume": "Anlægsregnskaber over 2 mio. kr. skal godkendes af Haderslev Kommunalbestyrelse.",
+      "sagsfremstilling": "Anlægsregnskaber over 2 mio. kr. skal godkendes af Haderslev Kommunalbestyrelse.",
+      "indstilling_fuld": "Direktøren for Teknik og Klima indstiller, at Land- og byudviklingsudvalget og Økonomiudvalget over for kommunalbestyrelsen anbefaler, at regnskabet for Område- og landsbyfornyelsespulje 2024 over 2,0 mio. kr. godkendes.",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "konsulentbistand"
       ],
@@ -2301,31 +330,6 @@
         "byudvikling",
         "områdefornyelse",
         "byfornyelse"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Haderslev_26/5606_2026-03-26",
-      "kommune": "Haderslev",
-      "udvalg": "Haderslev Kommunalbestyrelse",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "49",
-      "titel": "Medlemsinitiativ - Fra mobilitetsstrategi til konkret handling",
-      "sagsnr": "26/5606",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.haderslev.dk/#/meeting/e27f8a27-16d9-44a9-acbc-3d864806cbbf",
-      "kontaktperson": "",
-      "resume": "”På vegne af Socialdemokratiet, Slesvigsk Parti, Radikale Venstre, Enhedslisten og SF har Marie Skødt den 18. marts 2026 fremsendt følgende medlemsinitiativ til dagsordenen:",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "mobilitetsplan"
       ],
       "status": "ny"
     },
@@ -2345,39 +349,43 @@
       "link": "https://dagsordener.koege.dk/#/meeting/50b136f0-22e0-4288-afff-dd9245c5c886",
       "kontaktperson": "",
       "resume": "",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "Teknik- og Miljøforvaltningen indstiller til Teknik- og Ejendomsudvalget, at",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "indhent(?:e|ning)\\s+(?:af\\s+)?tilbud"
       ],
       "fagomraade_keywords": [
         "lokalplan",
-        "kommuneplan",
-        "forsyning"
+        "kommuneplan"
       ],
       "status": "ny"
     },
     {
-      "id": "Lolland_04.04.00-P20-2-25_2026-03-26",
+      "id": "Lolland_13.25.00-G01-3-26_2026-03-26",
       "kommune": "Lolland",
       "udvalg": "Byrådet",
       "moede_dato": "2026-03-26",
-      "punkt_nr": "8",
-      "titel": "Beslutning vedr. Ravnsborghallen",
-      "sagsnr": "04.04.00-P20-2-25",
-      "indstilling": "Administrationen indstiller, at udvalget beslutter hvilke af scenarierne, der skal arbejdes videre med: Scenarie 0 - Fortsat drift af eksisterende hal med løbende tilsyn indtil den er uegnet til brug ",
+      "punkt_nr": "7",
+      "titel": "Principbeslutning Færgestrategi",
+      "sagsnr": "13.25.00-G01-3-26",
+      "indstilling": "Administrationen indstiller til Klima-, Teknik-, og Miljøudvalget at: der med baggrund i den vedtagne færgestrategi og den politiske aftale 2026-2029 træffes beslutning som anbefalet.",
       "beslutning": "",
       "stpl_score": 4,
       "stpl_type": "Plan",
-      "bid_mode": "Alene",
+      "bid_mode": "Vurdér",
       "link": "https://dagsordener.lolland.dk/#/meeting/f3875486-5c67-4274-b11b-daeb482260bd",
       "kontaktperson": "",
-      "resume": "I budgetforliget for 2025 blev det besluttet, at Fritids-, Kultur- og Folkesundhedsudvalgets stillingtagen til, om den eksisterende hal skal nedrives og erstattes af nye idrætsfaciliteter, eller om facadekonstruktionen kan stabiliseres, skulle ske i dialog med brugerne. Som led heri blev der afho...",
+      "resume": "Færgefarten i Lolland Kommune står overfor en lang række store forandringer hen imod en langsigtet og fremtidssikret løsning af færgedriften til øerne Fejø, Femø og Askø. Færgestrategien er vedtaget af byrådet i september 2023, og den indeholder fire hovedpunkter: Køb af ny færge: Der skal indkøb...",
+      "sagsfremstilling": "Færgefarten i Lolland Kommune står overfor en lang række store forandringer hen imod en langsigtet og fremtidssikret løsning af færgedriften til øerne Fejø, Femø og Askø. Færgestrategien er vedtaget af byrådet i september 2023, og den indeholder fire hovedpunkter: Køb af ny færge: Der skal indkøbes en ny, grøn el-færge som erstatning for færgen M/F Femøsund. På sigt skal der desuden tages stilling til, om færgen M/F Christine skal ombygges, så den bliver eldrevet, eller om den skal erstattes af en ny elfærge. Antallet af færger reduceres: Reservefærgen Smålandshavet er allerede solgt, og Askø-færgen skal også sælges, når den er udtjent. Dog senest i 2030. Dermed skal de tre øer fremover betjenes af to færger i stedet for tre. Hver ø har således ikke sin egen færge. Antallet af afgange reduceres: I første omgang er antallet af afgange i døgnets ydertimer, i weekenden, på helligdage og i vinterperioden reduceret pr. 1. marts 2025. Det er perioder, hvor der er få passagerer. Ændrede sejlruter: Alle færger skal fremover sejle fra Kragenæs. Også færgen til Askø, der tidligere primært afgik fra Bandholm. Dermed kan driften optimeres og både personale og færger udnyttes mere fleksibelt på tværs af de tre ruter. Den politiske aftale 2026-2029 indeholder følgende vedrørende færgestrategien: Der arbejdes videre med grundlag i den vedtagne færgestrategi. Nye initiativer afventer et planlagt ministermøde med ø-kommunerne i januar 2026. Dette møde blev afholdt 27. februar Der kan medtages passagerer, når færgen benytter Bandholm som havn. Disse afgange afhænger af den løbende planlægning af færgedriften, og vil derfor ikke være en del af den officielle fartplan. Der udarbejdes en uvildig analyse af færgedriften, der skal belyse effektiviteten af kommunens drift, og serviceniveau i sammenligning med andre danske øer. Denne analyse er undervejs. I forlængelse af dette vil der ved budgetlægningen for 2027 blive taget stilling til, om der skal ske en hurtigere implementering af færgestrategien, og om yderligere tiltag er nødvendige. De fire hovedpunkter fra færgestrategien og punkterne i den politiske aftale kan i forhold til implementering brydes op i flere spor: Spor 1 omkring antallet af færger, der skal betjene øerne. Færgestrategiens hovedpunkter beskriver en fremtid med betjening af alle 3 øer med 2 færger. En forudsætning for at dette kan fungere er, at de to færger, der er til rådighed kan besejle alle 3 øer. Færgerne er jævnligt i dok til service, almindelig vedligehold og i forbindelse med akutte skader. I givet fald vil færgefarten stå uden mulighed for at betjene øerne, hvis den færge, der så er til rådighed, ikke kan lægge til i færgelejet. Den første forudsætning er således færgelejerne. Anlæg af nye eller ændrede færgelejer har formentlig en procestid på minimum 5 år. En hurtigere implementering af en 2-færgeløsning vil derfor i praksis forudsætte, at færge nummer 3 i en periode er til rådighed som reservefærge. Spor 2 omkring tilpasning af serviceniveauet omhandler almindelig tilpasning henimod en mere rentabel færgedrift. Her tages både tekniske, økonomiske, personalemæssige og driftsmæssige hensyn i indstillingerne til politisk behandling af serviceniveauet. Spor 3 omkring køb af el-færge. Dette er et spor for sig, som er et teknisk spor, og som er uafhængigt af beslutninger om serviceniveau og anlæg af færgelejer. Naturligvis skal dette spor kobles med anlæg af nye færgelejer, så det teknisk sikres, at disse er anvendelige uanset om det er den nuværende flåde eller en nyindkøbt færge, der skal anvende lejerne. Status på arbejdet nu: Der er igangsat udbud af totalrådgiveropgaven i forhold til køb af elfærge samt anlæg af el-infrastruktur og de nødvendige færgelejer. Udbuddet forventes at resultere i indgåelse af kontrakt med en totalrådgiver ultimo 2026. Muligheden for fleksibel anvendelse af færgerne ved at alle færger sejler fra Kragenæs er en realitet i dag, om end i forholdsvis begrænset omfang. Optimering af driften ved indførelse af nyt booking- og betalingssystem er i gang og forventes gennemført senest Q3 2026. I forbindelse med et større omfang af aktindsigtsanmodninger og spørgsmål fra borgere i løbet af 2025 er der udarbejdet informationsmateriale, som ligger på Lolland Kommunes hjemmeside, se via link: Om færgestrategien . Administrationen anbefaler med baggrund i den vedtagne færgestrategi og den politiske aftale 2026-2029 at: Der træffes principbeslutning om, at der med virkning fra vintersejlplanens ikrafttræden 2026 sejles med 2 færger og at nummer 3 færge bibeholdes som reservefærge indtil begge de to primære færger kan besejle alle tre øer. Dette uafhængigt af ovennævnte spor 3 om køb af el-færge. Der arbejdes videre i Klima-, Teknik-, og Miljøudvalget frem mod sommerferien med implementeringen af ovenstående og de konkrete konsekvenser for serviceniveauet og økonomien, samtidig med at der ses på resultatet af den bestilte trafikanalyse .",
+      "indstilling_fuld": "Administrationen indstiller til Klima-, Teknik-, og Miljøudvalget at: der med baggrund i den vedtagne færgestrategi og den politiske aftale 2026-2029 træffes beslutning som anbefalet.",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "rådgiver(?:ydelse|kontrakt|opgave)",
-        "under\\s+tærskelværdi",
-        "bevilling.*rådgiv"
+        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
-        "lokalplan"
+        "(?:plan|by|detail|bosætning|potentiale|s"
       ],
       "status": "ny"
     },
@@ -2397,40 +405,15 @@
       "link": "https://dagsordener.lolland.dk/#/meeting/f3875486-5c67-4274-b11b-daeb482260bd",
       "kontaktperson": "",
       "resume": "Namsosvej 9 i Maribo blev i maj 2024 udbudt til alment boligprojekt og der var 3 lokale boligforeninger, der bød. Det daværende Økonomi- og Erhvervsudvalg udpegede Lejerbo som vinder. Efter udbuddet og udpegningen, er grundstykket ved den kommunale institution Børnebakken blevet udstykket, der er...",
+      "sagsfremstilling": "Namsosvej 9 i Maribo blev i maj 2024 udbudt til alment boligprojekt og der var 3 lokale boligforeninger, der bød. Det daværende Økonomi- og Erhvervsudvalg udpegede Lejerbo som vinder. Efter udbuddet og udpegningen, er grundstykket ved den kommunale institution Børnebakken blevet udstykket, der er udarbejdet lokalplan for boligområdet og der er screenet for bilag IV-arter. Projektet opføres på en grund på 6.512 m² og disponeres som en parkbebyggelse bestående af fem boliglænger med mindre forskydninger, der skaber varierede opholdsrum og adgangsforhold. Boligerne fordeler sig som: 12 stk. 4-værelses rækkehuse á 110 m² 15 stk. 2-værelses lejligheder á 70 m² 15 stk. 3-værelses lejligheder á 90 m² Samlet bruttoetageareal udgør 3.907 m². Bebyggelsesprocenten udgør 60 %. Boligerne opføres i 1–2 etager (rækkehuse i 2 plan) med private terrasser eller altaner. Der etableres et fælleshus, som fungerer som bebyggelsens sociale samlingspunkt. Bebyggelsen er disponeret med fokus på: Optimal solorientering (sydvestvendte opholdsrum og udearealer) Støjafskærmning mod nærliggende erhverv Veldefinerede private og fælles opholdsarealer Bevarelse af eksisterende bevaringsværdige træer Fælleshuset er strategisk placeret som støjbuffer mod varegård og samtidig som socialt samlingspunkt. Arkitekturen kombinerer murede facader og træbeklædning med saddeltage. Der arbejdes med lyse materialer og variation i facadeudtryk for at sikre et moderne, men stedstilpasset arkitektonisk udtryk. Totalrådgiver er Arkitema, og ingeniørrådgiver er COWI. Projektet har fokus på bæredygtige løsninger, og der er lagt op til at der benyttes genbrugs mursten fx fra nedrivning af Birkevænget i Nakskov (såfremt der er et tilstrækkeligt antal og de har den fornødne styrke), træbeklædning i varmebehandlet træ, regnvandsbede til lokal afledning af regnvand (LAR), græsarmering på parkeringsarealer for øget nedsivning og bevarelse og supplering af eksisterende beplantning. Tagene udføres med tagpap af hensyn til lav CO2-belastning. Friarealerne indrettes som grønne, parklignende områder mellem bebyggelsens længer med private terrasser afskærmet med hække, fælles opholdsarealer med borde/bænke og grillplads, mindre legearealer, regnvandsbede med biodivers beplantning, stiforbindelser gennem bebyggelsen. Friarealerne understøtter således både ophold, leg og uformelle møder mellem beboerne. Der etableres desuden 48 parkeringspladser, herunder 1 handicapplads, svarende til gælde parkeringsnorm med 1½ plads pr. rækkehus og 1 plads pr. etagebolig. Tilkørsel sker fra Namsosvej via T-formet adgangsvej, som samtidig fungerer som vendeplads for renovation og redningskøretøjer. Affaldshåndtering etableres enten som nedgravede beholdere eller i lukkede skure i dialog med forsyningsselskabet. Boligsammensætningen med 2-, 3- og 4-værelses boliger tilgodeser enlige og par, små og mellemstore familier samt seniorer med behov for tilgængelige boliger. Etageboligerne indrettes med mulighed for fuld tilgængelighed. Projektet vurderes således at understøtte kommunens boligstrategi ved at tilføre moderne, attraktive almene familieboliger i Maribo. Projektet er således arkitektonisk velbearbejdet og tilpasset området, understøtter bæredygtige løsninger og klimatilpasning og tilfører Maribo varierede og tidssvarende almene boliger, der overholder gældende parkeringsnorm og disponeringskrav.",
+      "indstilling_fuld": "Administrationen indstiller, at Byrådet via Økonomi- og Erhvervsudvalget: Godkender Skema A for opførelse af 42 almene familieboliger på Namsosvej 9 i Maribo. Godkender den foreløbige anskaffelsessum. Godkender kommunal grundkapital på 10 % af den godkendte anskaffelsessum, som foreslås bevilliget via kassetræk (forventeligt 2028) . Godkender at kommunen overfor staten påtager sig regarantiforpligtelse på den del af realkreditlånet, som har pantsikkerhed udover 60 % af ejendomsværdien. Garantiprocenten er endnu ikke kendt. Bemyndiger administrationen til at arbejde videre med projektet frem mod Skema B.",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
         "lokalplan",
-        "klimatilpasning",
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_82.07.00-P20-137-25_2026-03-26",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "7",
-      "titel": "Projektering af renovering af Lindegårdsskolen - Anlægsbevilling (Beslutning)",
-      "sagsnr": "82.07.00-P20-137-25",
-      "indstilling": "Forvaltningen foreslår, at der gives en anlægsbevilling på 1 mio. kr. i 2026 til projektering af udbedringen af etagedækkene på Lindegårdsskolen, finansieret af anlægspuljen til uforudsete udgifter i ",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Miljø",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.ltk.dk/#/meeting/0714fc1d-ac6b-4ecb-ab01-c4024890ef5f",
-      "kontaktperson": "",
-      "resume": "I november 2025 blev der konstateret nedbøjning i gulvkonstruktionen i den ældste af bygningerne på Lindegårdsskolen. Forvaltningen har med bistand fra ekstern rådgiver gennemført en række undersøgelser. De peger på, at nedbøjningen kan henføres til konstruktionen af betondækkene fra 1932 i denne...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "miljøscreening"
+        "klimatilpasning"
       ],
       "status": "ny"
     },
@@ -2450,6 +433,9 @@
       "link": "https://dagsordener.ltk.dk/#/meeting/0714fc1d-ac6b-4ecb-ab01-c4024890ef5f",
       "kontaktperson": "",
       "resume": "Boligselskabet Almenbo har ansøgt om godkendelse af salg af erhvervs- og parkeringsareal i Lundtofteparken til Rema Etablering A/S, som ønsker at etablere en ny udvidet dagligvarebutik i afdelingen. Det er en forudsætning for salget, at Kommunalbestyrelsen godkender afhændelsen af arealet.",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "Forvaltningen foreslår, at Boligselskabet Almenbos salg af et areal på 1.250 m2 i afdeling Lundtofteparken til Rema Etabling A/S eller ordre godkendes.",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
@@ -2457,83 +443,6 @@
         "lokalplan",
         "planstrategi",
         "byudvikling"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_82.07.00-P20-137-25_2026-03-26",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "2",
-      "titel": "Projektering af renovering af Lindegårdsskolen - Anlægsbevilling (Beslutning)",
-      "sagsnr": "82.07.00-P20-137-25",
-      "indstilling": "Forvaltningen foreslår, at der gives en anlægsbevilling på 1 mio. kr. i 2026 til projektering af udbedringen af etagedækkene på Lindegårdsskolen, finansieret af anlægspuljen til uforudsete udgifter i ",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Miljø",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.ltk.dk/#/meeting/0d58a2b1-2e25-46d3-bba8-8a39fba639d3",
-      "kontaktperson": "",
-      "resume": "I november 2025 blev der konstateret nedbøjning i gulvkonstruktionen i den ældste af bygningerne på Lindegårdsskolen. Forvaltningen har med bistand fra ekstern rådgiver gennemført en række undersøgelser. De peger på, at nedbøjningen kan henføres til konstruktionen af betondækkene fra 1932 i denne...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv",
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "miljøscreening"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Nordfyns_S2025-10053_2026-03-26",
-      "kommune": "Nordfyns",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "104",
-      "titel": "Klima - Bogense Kystdiger - ansøgning om tillægsbevilling til anlægsprojektet (Procesudgifter)",
-      "sagsnr": "S2025-10053",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Miljø",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.nordfynskommune.dk/#/meeting/3e18519c-c74c-414c-a181-e7e97f18e05b",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "klimatilpasning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Nordfyns_S2024-813_2026-03-26",
-      "kommune": "Nordfyns",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "112",
-      "titel": "Justering af anlægsprojekt Nyt Sundheds- og personalefaciliteter i Otterup",
-      "sagsnr": "S2024-813",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 4,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.nordfynskommune.dk/#/meeting/3e18519c-c74c-414c-a181-e7e97f18e05b",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "rådgiver(?:ydelse|kontrakt|opgave)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning",
-        "helhedsplan"
       ],
       "status": "ny"
     },
@@ -2553,13 +462,15 @@
       "link": "https://dagsordener.rebild.dk/#/meeting/38557040-d61c-4f6a-8ebd-41613c37da17",
       "kontaktperson": "",
       "resume": "Forvaltningen har udarbejdet et forslag til lokalplan nr. 367 og tillæg nr. 2 til Kommuneplan 2025. Planforslagene giver mulighed for et nyt boligområde med åben-lav og tæt-lav boliger ved Anlægsvej i Suldrup. Der skal tages stilling til, om planforslagene skal sendes i offentlig høring.",
+      "sagsfremstilling": "Der er ansøgt om en lokalplan for et nyt boligområde på Anlægsvej, Suldrup. Planområdet omfatter en del af ejendommen matr.nr. 7hl, Suldrup By, Suldrup, der ligger op til det eksisterende boligområde Humlebien mod nord, Anlægsvej mod øst og grænser op til åbne dyrkningsarealer mod syd og vest. Området fremgår af bilag 1",
+      "indstilling_fuld": "Forvaltningen indstiller, at Plan-, Klima- og Miljøudvalget anbefaler Økonomiudvalg og byråd at forslag til tillæg nr. 2 til Kommuneplan 2025 og lokalplan nr. 367 sendes i offentlig høring i 8 uger. Beslutning fra Plan-, Klima- og Miljøudvalget, den 10. marts 2026, punkt 31: Indstilles godkendt. Beslutning fra Økonomiudvalget, den 18. marts 2026, punkt 42: Indstilles til byrådets godkendelse.",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
         "lokalplan",
         "kommuneplan",
-        "planlægning",
         "miljøvurdering",
         "vandværk",
         "grundvandsbeskyttelse"
@@ -2567,350 +478,58 @@
       "status": "ny"
     },
     {
-      "id": "Stevns_00.17.00-A00-1-26_2026-03-26",
-      "kommune": "Stevns",
-      "udvalg": "Kommunalbestyrelsen",
+      "id": "Tønder_00.22.04-P35-2-19_2026-03-26",
+      "kommune": "Tønder",
+      "udvalg": "      Kommunalbestyrelsen",
       "moede_dato": "2026-03-26",
-      "punkt_nr": "122",
-      "titel": "Forpligtende samarbejde, etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland, Beslutning",
-      "sagsnr": "00.17.00-A00-1-26",
-      "indstilling": "Forvaltningen indstiller, at Kommunalbestyrelsen godkender, at Stevns Kommune indgår i forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjællan",
+      "punkt_nr": "14",
+      "titel": "Anlægsbevilling og frigivelse af rådighedsbeløb til nyt Toftlund Sport- og Fritidscenter",
+      "sagsnr": "00.22.04-P35-2-19",
+      "indstilling": "",
       "beslutning": "",
       "stpl_score": 4,
-      "stpl_type": "Rådgivning",
+      "stpl_type": "Plan",
       "bid_mode": "Vurdér",
-      "link": "https://dagsordener.stevns.dk/#/meeting/90101863-7333-48b2-a724-3daa82918c2d",
+      "link": "https://dagsordener.toender.dk/#/meeting/339ab233-4557-4051-b84a-4e5f773a9684",
       "kontaktperson": "",
-      "resume": "Cybersikkerhed var et centralt tema i årets økonomiforhandlinger. Det blev aftalt i økonomiaftalen, at kommunerne senest den 1. januar 2027 skal etablere 4-5 kommunale it-serviceorganisationer med geografisk udgangspunkt i de fire regioner. Alternativt vil regeringen arbejde for at lovgive om det...",
+      "resume": "Arbejdet med Toftlund Sport- og Fritidscenter skrider frem efter planen, men der har løbende været nødvendige forlængelser af tidsplanen på grund af uforudsete forhold under nedbrydningen samt jordbundsforholdene på pladsen, som har krævet væsentlige tiltag. Totalentreprenøren, Gråkjær, er stødt ...",
+      "sagsfremstilling": "Arbejdet med Toftlund Sport- og Fritidscenter skrider frem efter planen, men der har løbende været nødvendige forlængelser af tidsplanen på grund af uforudsete forhold under nedbrydningen samt jordbundsforholdene på pladsen, som har krævet væsentlige tiltag. Totalentreprenøren, Gråkjær, er stødt på forhold, som ikke var i overensstemmelse med de forudgående geotekniske undersøgelser. På trods af de ekstra arbejder med nedbrydning og fundering forventer Gråkjær fortsat at kunne holde tidsplanen ved at implementere tiltag på pladsen og koordinere arbejdet mellem de forskellige entrepriser. Tidsplanen er som følger: Opstart af byggeplads : 24.02.2025 Lukket bygning : 19.12.2025 Indvendig aflevering : 17.08.2026 Udvendig aflevering : 16.11.2026",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
-        "konsulentbistand",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
         "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
       ],
       "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Greve_25-013475_2026-03-11",
-      "kommune": "Greve",
-      "udvalg": "Byråd og Udvalg 2026 - 2029",
-      "moede_dato": "2026-03-11",
-      "punkt_nr": "3",
-      "titel": "Hundige Station - ombygning af brodække og stationsbygning",
-      "sagsnr": "25-013475",
-      "indstilling": "",
-      "beslutning": "Udvalget udtrykker bekymring for, at projektet indeholder for mange utryghedsskabende elementer og ønsker, at projektet samtænkes med Hundige Helhedsplan. Der er en særlig opmærksomhed på projektets t",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.greve.dk/#/meeting/69a82c26-2ba8-4f03-938e-186355646acc",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "afsæt(?:te|tes)\\s+midler.*(?:rådgiv|kons"
-      ],
-      "fagomraade_keywords": [
-        "helhedsplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Køge_2026-002888_2026-03-16",
-      "kommune": "Køge",
-      "udvalg": "  Økonomiudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "67",
-      "titel": "Etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland",
-      "sagsnr": "2026-002888",
-      "indstilling": "Økonomi- og Koncernservice indstiller til Økonomiudvalget og Byrådet, at Køge Kommune indgår i forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR",
-      "beslutning": "Anbefales. Afbud: Cecilie Friis Parsow",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.koege.dk/#/meeting/2416b1b2-50a9-420e-ae47-8f56619d021a",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Køge_2026-000708_2026-03-16",
-      "kommune": "Køge",
-      "udvalg": "  Økonomiudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "72",
-      "titel": "Delegationsplan 2026-2029 for Økonomiudvalget",
-      "sagsnr": "2026-000708",
-      "indstilling": "Økonomi- og Koncernservice indstiller, at Økonomiudvalget og Byrådet godkender delegationsplanen for Økonomiudvalget og tager orientering om ændringerne til efterretning.",
-      "beslutning": "Anbefales. Afbud: Cecilie Friis Parsow",
-      "stpl_score": 3,
-      "stpl_type": "Miljø",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.koege.dk/#/meeting/2416b1b2-50a9-420e-ae47-8f56619d021a",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "miljøvurdering"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Randers_82.07.00-P20-6-25_2026-03-16",
-      "kommune": "Randers",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "38",
-      "titel": "Bygningsvedligehold 2026",
-      "sagsnr": "82.07.00-P20-6-25",
-      "indstilling": "Forvaltningen indstiller til byrådet via miljø- og teknikudvalget og økonomiudvalget, at orienteringen om bygningsvedligehold tages til efterretning. at der fremrykkes et rådighedsbeløb på 0,6 mio. kr",
-      "beslutning": "Indstilles godkendt. Louise Høeg var fraværende.",
-      "stpl_score": 3,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.randers.dk/#/meeting/65f54faa-e7ba-4cd1-a7d5-d9ed20ee9cea",
-      "kontaktperson": "",
-      "resume": "I 2026 er der afsat et samlet driftsbudget på 191,6 mio. kr. til de kommunale bygninger samt et anlægsbudget til bygningsvedligehold, energibesparende foranstaltninger og brandtekniskgennemgang på samlet 76 mio. kr., hvoraf anlægsbudgettet til bygningsvedligehold udgør 55,5 mio. kr. Driftsbudgett...",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "kloak"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Slagelse_26-002969_2026-03-16",
-      "kommune": "Slagelse",
-      "udvalg": "  Økonomiudvalget",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "11",
-      "titel": "Forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland (B)",
-      "sagsnr": "26-002969",
-      "indstilling": "",
-      "beslutning": "At 1: Indstilles til Byrådets godkendelse.",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.slagelse.dk/#/meeting/d18b43fc-22c3-497a-8bee-e1f6f92bcc28",
-      "kontaktperson": "",
-      "resume": "Kompetence Byrådet Beslutningstema Cybersikkerhed var et centralt tema i årets økonomiforhandlinger. Det blev aftalt i økonomiaftalen, at kommunerne senest den 1. januar 2027 skal etablere 4-5 kommunale it-serviceorganisationer med geografisk udgangspunkt i de fire regioner. Alternativt vil reger...",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Vejen_26/2301_2026-03-17",
-      "kommune": "Vejen",
-      "udvalg": "Økonomiudvalg",
-      "moede_dato": "2026-03-17",
-      "punkt_nr": "26",
-      "titel": "Garantiprovision - revurdering af praksis (C)",
-      "sagsnr": "26/2301",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.vejen.dk/#/meeting/a4f87112-4e0e-4e47-bb88-553b43adb310",
-      "kontaktperson": "",
-      "resume": "Vejen Kommune stiller med jævne mellemrum garanti for lån og byggekreditter for forsyningsvirksomheder og andre typer af virksomheder.",
-      "indkoeb_keywords": [
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Hillerød_25/7494_2026-03-18",
-      "kommune": "Hillerød",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "14",
-      "titel": "Orientering om forundersøgelser for atletikfaciliteter på Hillerød Stadion eller Højbanerne ved FIF",
-      "sagsnr": "25/7494",
-      "indstilling": "Direktionen indstiller til Økonomiudvalget: at indstille til Kommunalbestyrelsen at tage sagen til orientering. at sende sagen til efterretning i Kultur, Idræt og Lokalsamfundsudvalget.",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.hillerod.dk/#/meeting/5b9c9dab-cd60-4050-ac2d-204e77b8dc05",
-      "kontaktperson": "",
-      "resume": "Byrådet besluttede i forbindelse med Budgetopfølgning 2 i 2025, at forvaltningen skulle indhente ekstern rådgivning i forbindelse med det videre arbejde af forvaltningens placeringsnotat. Det rådgivende ingeniørfirma WSP har udarbejdet et indledende notat om de to udvalgte placeringsforslag, Højb...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "miljøvurdering",
-        "miljøscreening",
-        "VVM",
+        "byudvikling",
+        "masterplan",
         "bygherrerådgivning"
       ],
       "status": "ny"
     },
     {
-      "id": "Hillerød_25/15560_2026-03-18",
-      "kommune": "Hillerød",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "24",
-      "titel": "Cykelsti langs Brødeskovvej - tillægsbevilling til rådighedsbeløb og anlægsbevilling",
-      "sagsnr": "25/15560",
-      "indstilling": "Direktionen indstiller, at Trafik og Mobilitetsudvalget indstiller til Økonomiudvalget at indstille til Kommunalbestyrelsen: at der meddeles tillæg til rådighedsbeløb og anlægsbevilling på 6.100.000 k",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.hillerod.dk/#/meeting/5b9c9dab-cd60-4050-ac2d-204e77b8dc05",
-      "kontaktperson": "",
-      "resume": "Byrådet har den 26. marts 2025 bevilget 6.300.000 mio. kr. til anlæggelse af ca. 900 m dobbeltrettet cykelsti langs Brødeskovvej mellem Gl. Frederiksborgvej og jernbanen.",
-      "indkoeb_keywords": [
-        "indhent(?:e|ning)\\s+(?:af\\s+)?tilbud",
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "igangsæt(?:te|telse)\\s+(?:af\\s+)?udbud"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Holbæk_26-003743_2026-03-18",
-      "kommune": "Holbæk",
-      "udvalg": "Kommunalbestyrelse og Økonomiudvalg",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "52",
-      "titel": "Beslutning om forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland",
-      "sagsnr": "26-003743",
+      "id": "Vejle_01.00.00-A00-1-26_2026-03-16",
+      "kommune": "Vejle",
+      "udvalg": "Økonomi & Erhvervsudvalget ",
+      "moede_dato": "2026-03-16",
+      "punkt_nr": "46",
+      "titel": "Forslag til ansøgning om Strategisk-Fysisk Udviklingsplan for turisme i Vejle Ådal og Fjord",
+      "sagsnr": "01.00.00-A00-1-26",
       "indstilling": "",
       "beslutning": "Godkendt.",
       "stpl_score": 3,
-      "stpl_type": "Rådgivning",
+      "stpl_type": "Plan",
       "bid_mode": "Vurdér",
-      "link": "https://dagsordener.holbaek.dk/#/meeting/d705bc87-7cd4-4180-a8f8-a6f6a736f84e",
+      "link": "https://dagsordener.vejle.dk/#/meeting/6b2ff46c-56d5-4a87-aa91-04832682d94a",
       "kontaktperson": "",
-      "resume": "Indstilling Administrationen indstiller: at Holbæk Kommune indgår i forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland. Alternativ indstilling Resume Cybersikkerhed var et centralt tema i årets økonomiforhandlinger. Det blev aftalt i...",
+      "resume": "Vejle Fjord og Vejle Ådal er i en ny Udviklingsplan for Jyllands østkyst (pixiudgave af Udviklingsplanen vedhæftet) udpeget som et turismekraftcenter med særlige potentialer. Udviklingsplanen er udarbejdet på vegne af Dansk Kyst- og Naturturisme, Realdania, seks turistdestinationsselskaber samt 2...",
+      "sagsfremstilling": "Vejle Fjord og Vejle Ådal er i en ny Udviklingsplan for Jyllands østkyst (pixiudgave af Udviklingsplanen vedhæftet) udpeget som et turismekraftcenter med særlige potentialer. Udviklingsplanen er udarbejdet på vegne af Dansk Kyst- og Naturturisme, Realdania, seks turistdestinationsselskaber samt 23 kommuner og har til formål at styrke turismeudviklingen langs østkysten i et langsigtet og strategisk perspektiv. Planen lanceres i foråret 2026.",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "Godkendt.",
       "indkoeb_keywords": [
         "konsulentbistand"
       ],
       "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Kalundborg_26-002507_2026-03-18",
-      "kommune": "Kalundborg",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "16",
-      "titel": "Beslutning om forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland",
-      "sagsnr": "26-002507",
-      "indstilling": "",
-      "beslutning": "Anbefales, idet sagen alene vedrører samarbejde om server og netværk.",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.kalundborg.dk/#/meeting/6ba60e5b-64ba-4bf3-bae7-616c25775e41",
-      "kontaktperson": "",
-      "resume": "Resume og sagens baggrund",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Morsø_S2026-2063_2026-03-18",
-      "kommune": "Morsø",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "56",
-      "titel": "Inspiration og vidensindsamling i forbindelse med forberedelse af udbud af projektgrunden Øen",
-      "sagsnr": "S2026-2063",
-      "indstilling": "Administrationen indstiller, at",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.mors.dk/#/meeting/6c25683d-74ec-4c4a-9b75-9dede83f70dd",
-      "kontaktperson": "",
-      "resume": "Kommunalbestyrelsen og Økonomiudvalget blev i december 2025 orienteret om procesplanen for projektgrunden Øen nær lystbådehavnen i Nykøbing, hvor der blev redegjort for de overordnede faser i udviklingsarbejdet. Projektet er nu nået til arbejdet med udvikling af bygningstype, som skal danne grund...",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Roskilde_24-091469_2026-03-18",
-      "kommune": "Roskilde",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "93",
-      "titel": "Frigivelse af midler til Rådhusprojektet",
-      "sagsnr": "24-091469",
-      "indstilling": "",
-      "beslutning": "Godkendt. Fraværende: Merete Dea Larsen (O), Jette Tjørnelund (V) Stedfortræder: Bent Jørgensen (V)",
-      "stpl_score": 3,
-      "stpl_type": "Bygherrerådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.roskilde.dk/#/meeting/cbecb0e0-3020-4f38-8b2f-853bc0146382",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "masterplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Samsø_S2025-838_2026-03-18",
-      "kommune": "Samsø",
-      "udvalg": "Nuværende kommunalbestyrelsesperiode 2026-2029",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "44",
-      "titel": "Renovering børnehaver og leje pavilloner - ny tidsplan - TU",
-      "sagsnr": "S2025-838",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsorden.samsoe.dk/#/meeting/0779d9da-39a3-4631-8586-014c496f5d7b",
-      "kontaktperson": "",
-      "resume": "Det blev i 2025 (KB 17.06.2025 og 09.12.2025) besluttet at anvende de oprindelige midler fra til- og ombygningen af Rumlepotten, til renovering af Rumlepotten og Børnehuset.",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
+        "landskabsanalyse"
       ],
       "status": "ny"
     },
@@ -2930,131 +549,14 @@
       "link": "https://dagsorden.samsoe.dk/#/meeting/0779d9da-39a3-4631-8586-014c496f5d7b",
       "kontaktperson": "",
       "resume": "Teknik- og Miljøudvalget har siden 2021 fået en halvårlig status på byggesagsområdet, på udvalgsmøderne i henholdsvis marts og september. Teknik- og Miljøudvalget besluttede på mødet den 31. marts 2025, at orienteringen fremadrettet kun skal fremlægges én gang årligt i forbindelse med at KL's sta...",
+      "sagsfremstilling": "Teknik- og Miljøudvalget har siden 2021 fået en halvårlig status på byggesagsområdet, på udvalgsmøderne i henholdsvis marts og september. Teknik- og Miljøudvalget besluttede på mødet den 31. marts 2025, at orienteringen fremadrettet kun skal fremlægges én gang årligt i forbindelse med at KL's statistik for det foregående år, der normalt udsendes i starten af marts.",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "konsulentbistand"
       ],
       "fagomraade_keywords": [
         "lokalplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Slagelse_26-002969_2026-03-18",
-      "kommune": "Slagelse",
-      "udvalg": "  Byråd",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "9",
-      "titel": "Forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland (B)",
-      "sagsnr": "26-002969",
-      "indstilling": "",
-      "beslutning": "At 1: Godkendt. Afbud: Troels Brandt (Stedfortræder: Poul Arne Bødker), Henrik Brodersen",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.slagelse.dk/#/meeting/2161ad4e-d728-4bc3-b5cc-48490b158271",
-      "kontaktperson": "",
-      "resume": "Kompetence Byrådet Beslutningstema Cybersikkerhed var et centralt tema i årets økonomiforhandlinger. Det blev aftalt i økonomiaftalen, at kommunerne senest den 1. januar 2027 skal etablere 4-5 kommunale it-serviceorganisationer med geografisk udgangspunkt i de fire regioner. Alternativt vil reger...",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Sorø_00.00.00-P20-12-24_2026-03-18",
-      "kommune": "Sorø",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "34",
-      "titel": "Beslutning om udvidelse af Frederiksberg Skole",
-      "sagsnr": "00.00.00-P20-12-24",
-      "indstilling": "",
-      "beslutning": "Pkt. 1: Indstilles godkendt. Pkt. 2: Indstilles godkendt, dog således at finansiering ikke må ske på bekostning af de allerede besluttede anlægsinvesteringer på Holbergskolen, Landsbyordningen i Ruds ",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.soroe.dk/#/meeting/bc631408-0bb7-4ee1-bf6a-b353aed02675",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Sorø_85.15.02-G01-3-26_2026-03-18",
-      "kommune": "Sorø",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "36",
-      "titel": "Beslutning om forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland",
-      "sagsnr": "85.15.02-G01-3-26",
-      "indstilling": "",
-      "beslutning": "Indstilles godkendt. Rebecca Broholm-Little (Ø) var fraværende under punktet. Eva Flyvholm trådte ind som stedfortræder for Rebecca Broholm-Little (Ø).",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.soroe.dk/#/meeting/bc631408-0bb7-4ee1-bf6a-b353aed02675",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Viborg_19/27220_2026-03-18",
-      "kommune": "Viborg",
-      "udvalg": "Økonomi- og Erhvervsudvalget",
-      "moede_dato": "2026-03-18",
-      "punkt_nr": "20",
-      "titel": "Renovering af broer efter udførelse af generaleftersyn (bevillingssag)",
-      "sagsnr": "19/27220",
-      "indstilling": "Direktøren for Teknik & Miljø foreslår, at Teknisk Udvalg indstiller til byrådet,",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.viborg.dk/#/meeting/272c4fcd-dc66-492a-9741-6fcdf55cdc12",
-      "kontaktperson": "",
-      "resume": "Der skal tages stilling til frigivelse af det afsatte rådighedsbeløb til renovering af broer i 2026.",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_00.30.10-S55-1-26_2026-03-19",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-19",
-      "punkt_nr": "3",
-      "titel": "Regnskab 2025 - Økonomiudvalgets område (Orientering)",
-      "sagsnr": "00.30.10-S55-1-26",
-      "indstilling": "Forvaltningen orienterer om regnskab 2025 og overførsler samt om foreløbig status for budget 2026 for fagudvalgets område.",
-      "beslutning": "Orientering givet.",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.ltk.dk/#/meeting/949e97fc-eff7-4d26-bfa1-ab6157649541",
-      "kontaktperson": "",
-      "resume": "Kommunalbestyrelsen behandler den 26. marts 2026 regnskab for 2025 med henblik på oversendelse af regnskabet til revisionen. Der skal ligeledes tages stilling til overførsler mellem regnskabsårene. Med denne sag fremlægges regnskabsresultatet for 2025 og overførsler på udvalgets serviceområde, id...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
       ],
       "status": "ny"
     },
@@ -3074,6 +576,9 @@
       "link": "https://dagsordener.toender.dk/#/meeting/0723d133-82d0-42fc-b968-0d67c0e74e9f",
       "kontaktperson": "",
       "resume": "Masterplanens formål: • at gøre Tønder Sport og Fritidscenter og omgivende faciliteter og områder endnu mere attraktive for Tønder Kommunes borgere og gæster • at fremme kulturlivet, idrætslivet, den fysiske og mentale folkesundhed blandt kommunens borgere • at skabe fælles koordinering omkring b...",
+      "sagsfremstilling": "Masterplanens formål: • at gøre Tønder Sport og Fritidscenter og omgivende faciliteter og områder endnu mere attraktive for Tønder Kommunes borgere og gæster • at fremme kulturlivet, idrætslivet, den fysiske og mentale folkesundhed blandt kommunens borgere • at skabe fælles koordinering omkring benyttelse af faciliteter på tværs af interessenter • at gøre TSFC til en aktiv del af Tønders byliv og aktiviteter omkring Tøndermarsk Initiativet og Tønder Festival. Koordineringsgruppen for masterplan for Tønderhallerne besluttede i efteråret at prioritere igangsætning af nyt krydstorv. Kommunalbestyrelsen besluttede i april 2025 en anlægsbevilling på 21,3 mio. kr. til krydstorvet. Koordineringsgruppen nedsatte en byggegruppe ledet af direktøren for Teknik/Miljø, Service og Beskæftigelse. Byggegruppen arbejdede ud fra en udbudsform, som den der blev brugt ved udbud af byggeopgaven til Toftlundhallerne. Det viste sig vanskeligt at tiltrække aktører til opgaven, og byggegruppen satte udbudsarbejdet i bero i efteråret 2025. Den nuværende koordineringsgruppe afspejler den juridiske struktur bag Tønderhallerne. Tønder Kommune, repræsenteret ved vicekommunaldirektøren, sidder for bordenden, da Tønder Kommune ejer bygningerne, der udgør Tønderhallerne. Herudover deltager repræsentanter for Fonden Tønderhallerne, som drifter hallerne, brugerforeningerne i hallerne, Tønderhallernes ledelse, Klubhus for Alle samt Kultur og Frivillighed. Det er koordineringsgruppens ønske, at der tilføres gruppen yderligere kompetencer ved politisk deltagelse i gruppen samt deltagelse af aktører i Tønder by, således at der kommer en klar kobling mellem masterplanen og midtbyplanen. Herudover ønskes der også fast deltagelse i en fremtidig styregruppe af Tønder Byferie A/S, så der sikres en optimal koordinering mellem masterplanen og Tønder Byferies investeringer i vandrehjem og autocamperplads. Det overordnede formål med en opgradering fra koordineringsgruppe til en bredere styregruppe er at sikre det strategiske sigte med masterplanen. Forslag til styregruppens sammensætning: 2 politisk udpegede deltagere, kan være 2 fra Økonomiudvalget eller en fra Økonomiudvalget og en fra Kultur- og Fritidsudvalget. Keld I. Hansen (projektejer og direktionens repræsentant) Én repræsentant for Fonden Tønderhallerne Mads Pedersen, direktør Tønderhallerne En repræsentant for brugerforeningerne Tønder Byferie A/S – direktør Thorsten Simonsen Tønder Handelsstandsforening – evt. formand Frank Hoff Rømø-Tønder Turistforening – evt. direktør Colin J. Seymour Ressource personer fra forvaltningen, der deltager i arbejdet men ikke er medlemmer af styregruppen Leder af facilitetsudvikling Jacob Christian Hansen Team Ejendomme Politik og Strategi Andre kan deltage ad hoc, når det er relevant",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "Styregruppen nedsættes med 2 repræsentanter fra Økonomiudvalget: Claus Hansen og Jan Fogh.",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
@@ -3083,26 +588,30 @@
       "status": "ny"
     },
     {
-      "id": "Middelfart_2026-001468_2026-03-23",
-      "kommune": "Middelfart",
-      "udvalg": "Byrådet og politiske udvalg",
+      "id": "Greve_25-008259_2026-03-23",
+      "kommune": "Greve",
+      "udvalg": "Byråd og Udvalg 2026 - 2029",
       "moede_dato": "2026-03-23",
-      "punkt_nr": "30",
-      "titel": "Samlet over-/underskud 2025",
-      "sagsnr": "2026-001468",
+      "punkt_nr": "8",
+      "titel": "Krogårdskolen – PCB-renovering, anlægsbevilling og tillægsbevilling",
+      "sagsnr": "25-008259",
       "indstilling": "",
-      "beslutning": "",
+      "beslutning": "1.-4. Anbefales.",
       "stpl_score": 3,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.middelfart.dk/#/meeting/b0e726fa-1955-4e52-a751-0438b68f27bd",
+      "stpl_type": "Plan",
+      "bid_mode": "Alene",
+      "link": "https://dagsordener.greve.dk/#/meeting/77541288-b456-4d87-83f0-043a3c4f08fa",
       "kontaktperson": "",
       "resume": "",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "1.-4. Anbefales.",
       "indkoeb_keywords": [
-        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
+        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek",
+        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
-        "forsyning"
+        "helhedsplan"
       ],
       "status": "ny"
     },
@@ -3122,6 +631,9 @@
       "link": "https://dagsordener.middelfart.dk/#/meeting/b0e726fa-1955-4e52-a751-0438b68f27bd",
       "kontaktperson": "",
       "resume": "",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "ekstern\\s+bistand"
       ],
@@ -3131,301 +643,137 @@
       "status": "ny"
     },
     {
-      "id": "Randers_82.07.00-P20-6-25_2026-03-23",
-      "kommune": "Randers",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "108",
-      "titel": "Bygningsvedligehold 2026",
-      "sagsnr": "82.07.00-P20-6-25",
-      "indstilling": "Forvaltningen indstiller til byrådet via miljø- og teknikudvalget og økonomiudvalget, at orienteringen om bygningsvedligehold tages til efterretning. at der fremrykkes et rådighedsbeløb på 0,6 mio. kr",
-      "beslutning": "Godkendt. Karen Lagoni (A) deltog som stedfortræder for Torben Hansen (A).",
-      "stpl_score": 3,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.randers.dk/#/meeting/247cd5a9-c940-4993-9416-e7bb44a26d3f",
-      "kontaktperson": "",
-      "resume": "I 2026 er der afsat et samlet driftsbudget på 191,6 mio. kr. til de kommunale bygninger samt et anlægsbudget til bygningsvedligehold, energibesparende foranstaltninger og brandtekniskgennemgang på samlet 76 mio. kr., hvoraf anlægsbudgettet til bygningsvedligehold udgør 55,5 mio. kr. Driftsbudgett...",
-      "indkoeb_keywords": [
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks"
-      ],
-      "fagomraade_keywords": [
-        "kloak"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Vejen_26/2301_2026-03-23",
-      "kommune": "Vejen",
-      "udvalg": "Byrådet 2026-2029",
-      "moede_dato": "2026-03-23",
-      "punkt_nr": "16",
-      "titel": "16. Garantiprovision - revurdering af praksis (C)",
-      "sagsnr": "26/2301",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Forsyning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.vejen.dk/#/meeting/20d0dba1-c2b2-42fa-b4f7-b19744601085",
-      "kontaktperson": "",
-      "resume": "Vejen Kommune stiller med jævne mellemrum garanti for lån og byggekreditter for forsyningsvirksomheder og andre typer af virksomheder.",
-      "indkoeb_keywords": [
-        "ekstern\\s+bistand"
-      ],
-      "fagomraade_keywords": [
-        "forsyning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Hillerød_25/7494_2026-03-25",
+      "id": "Hillerød_26/1398_2026-03-25",
       "kommune": "Hillerød",
       "udvalg": "Kommunalbestyrelsen",
       "moede_dato": "2026-03-25",
-      "punkt_nr": "13",
-      "titel": "Orientering om forundersøgelser for atletikfaciliteter på Hillerød Stadion eller Højbanerne ved FIF - supplerende sagsfremstilling",
-      "sagsnr": "25/7494",
-      "indstilling": "Direktionen indstiller til Økonomiudvalget: at indstille til Kommunalbestyrelsen at tage sagen til orientering. at sende sagen til efterretning i Kultur, Idræt og Lokalsamfundsudvalget.",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.hillerod.dk/#/meeting/e0a9b694-ea9f-4906-a4af-0a6ef71330a5",
-      "kontaktperson": "",
-      "resume": "Byrådet besluttede i forbindelse med Budgetopfølgning 2 i 2025, at forvaltningen skulle indhente ekstern rådgivning i forbindelse med det videre arbejde af forvaltningens placeringsnotat. Det rådgivende ingeniørfirma WSP har udarbejdet et indledende notat om de to udvalgte placeringsforslag, Højb...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "miljøvurdering",
-        "miljøscreening",
-        "VVM",
-        "bygherrerådgivning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Hillerød_25/15560_2026-03-25",
-      "kommune": "Hillerød",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "22",
-      "titel": "Cykelsti langs Brødeskovvej - tillægsbevilling til rådighedsbeløb og anlægsbevilling",
-      "sagsnr": "25/15560",
-      "indstilling": "Direktionen indstiller, at Trafik og Mobilitetsudvalget indstiller til Økonomiudvalget at indstille til Kommunalbestyrelsen: at der meddeles tillæg til rådighedsbeløb og anlægsbevilling på 6.100.000 k",
+      "punkt_nr": "17",
+      "titel": "Biodiversitetsplan - anlægsbevilling",
+      "sagsnr": "26/1398",
+      "indstilling": "Direktionen indstiller til Natur, Miljø og Klimaudvalget at indstille til Økonomiudvalget at indstille til Kommunalbestyrelsen, at der meddeles anlægsbevilling på 800.000 kr. finansieret af de afsatte",
       "beslutning": "",
       "stpl_score": 3,
       "stpl_type": "Rådgivning",
       "bid_mode": "Vurdér",
       "link": "https://dagsordener.hillerod.dk/#/meeting/e0a9b694-ea9f-4906-a4af-0a6ef71330a5",
       "kontaktperson": "",
-      "resume": "Byrådet har den 26. marts 2025 bevilget 6.300.000 mio. kr. til anlæggelse af ca. 900 m dobbeltrettet cykelsti langs Brødeskovvej mellem Gl. Frederiksborgvej og jernbanen.",
-      "indkoeb_keywords": [
-        "indhent(?:e|ning)\\s+(?:af\\s+)?tilbud",
-        "bevilling.*rådgiv",
-        "anlægsbevilling.*(?:rådgiv|konsulent|eks",
-        "igangsæt(?:te|telse)\\s+(?:af\\s+)?udbud"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Hillerød_25/7494_2026-03-25",
-      "kommune": "Hillerød",
-      "udvalg": "Økonomiudvalget",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "1",
-      "titel": "Orientering om forundersøgelser for atletikfaciliteter på Hillerød Stadion eller Højbanerne ved FIF - supplerende sagsfremstilling",
-      "sagsnr": "25/7494",
-      "indstilling": "Direktionen indstiller til Økonomiudvalget: at indstille til Kommunalbestyrelsen at tage sagen til orientering. at sende sagen til efterretning i Kultur, Idræt og Lokalsamfundsudvalget.",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.hillerod.dk/#/meeting/5921bdc5-e067-459a-8171-2243165ec91b",
-      "kontaktperson": "",
-      "resume": "Byrådet besluttede i forbindelse med Budgetopfølgning 2 i 2025, at forvaltningen skulle indhente ekstern rådgivning i forbindelse med det videre arbejde af forvaltningens placeringsnotat. Det rådgivende ingeniørfirma WSP har udarbejdet et indledende notat om de to udvalgte placeringsforslag, Højb...",
-      "indkoeb_keywords": [
-        "ekstern\\s+rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "lokalplan",
-        "miljøvurdering",
-        "miljøscreening",
-        "VVM",
-        "bygherrerådgivning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Horsens_29.30.08-A00-1-26_2026-03-25",
-      "kommune": "Horsens",
-      "udvalg": "Byråd og politiske udvalg",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "18",
-      "titel": "SSU Horisontal samarbejdsaftale om patientrettet forebyggelse",
-      "sagsnr": "29.30.08-A00-1-26",
-      "indstilling": "Direktionen indstiller, at Byrådet godkender aftalen.",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.horsens.dk/#/meeting/5963e222-83f8-44d8-9c81-c4ac4683bf89",
-      "kontaktperson": "",
-      "resume": "Fra den 1. januar 2027 overtager regionerne myndigheds- og finansieringsansvaret for patientrettet forebyggelse. På initiativ fra region Midtjylland er der udarbejdet en forpligtende samarbejdsaftale mellem Region Midtjylland og Horsens Kommune, hvor kommunen fortsat leverer patientrettet forebyg...",
-      "indkoeb_keywords": [
-        "tildel(?:e|ing).*rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Horsens_29.30.08-A00-1-26_2026-03-25",
-      "kommune": "Horsens",
-      "udvalg": "Byråd og politiske udvalg",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "1",
-      "titel": "SSU Horisontal samarbejdsaftale om patientrettet forebyggelse",
-      "sagsnr": "29.30.08-A00-1-26",
-      "indstilling": "Direktionen indstiller, at Byrådet godkender aftalen.",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Konsortium",
-      "link": "https://dagsordener.horsens.dk/#/meeting/b3a6a44c-d4c3-4213-97b5-e1002a9666cc",
-      "kontaktperson": "",
-      "resume": "Fra den 1. januar 2027 overtager regionerne myndigheds- og finansieringsansvaret for patientrettet forebyggelse. På initiativ fra region Midtjylland er der udarbejdet en forpligtende samarbejdsaftale mellem Region Midtjylland og Horsens Kommune, hvor kommunen fortsat leverer patientrettet forebyg...",
-      "indkoeb_keywords": [
-        "tildel(?:e|ing).*rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Kalundborg_26-002507_2026-03-25",
-      "kommune": "Kalundborg",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "13",
-      "titel": "Beslutning om forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland",
-      "sagsnr": "26-002507",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.kalundborg.dk/#/meeting/69a87691-95cf-4dfe-b5f6-fdf036a49d50",
-      "kontaktperson": "",
-      "resume": "Resume og sagens baggrund",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lemvig_34.00.00P00-1-25_2026-03-25",
-      "kommune": "Lemvig",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "24",
-      "titel": "Handicapsagsbarometret - sagsbehandlingstider",
-      "sagsnr": "34.00.00P00-1-25",
-      "indstilling": "At resultaterne fra Handicapsagsbarometret tages til efterretning. At anbefaling om ikke at iværksætte foranstaltninger i Lemvig Kommune godkendes. Beslutning fra Familie- og Kulturudvalget, den 27. j",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.lemvig.dk/#/meeting/28aafec4-7b91-45b3-9c31-6a6137b326d2",
-      "kontaktperson": "",
-      "resume": "Handicapsagsbarometret er Ankestyrelsens landsdækkende måling, der belyser, om kommunerne følger regler og praksis i sager på handicapområdet. Ud fra Ankestyrelsens erfaring med, hvor styrelsen typisk ser udfordringer i sagsbehandlingen, er følgende fire lovbestemmelser blevet udtaget til Handica...",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "kommuneplan"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Sorø_85.15.02-G01-3-26_2026-03-25",
-      "kommune": "Sorø",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "51",
-      "titel": "Beslutning om forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland",
-      "sagsnr": "85.15.02-G01-3-26",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.soroe.dk/#/meeting/587387ac-fe1c-424a-a52b-c1b2724cb61d",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Sorø_00.00.00-P20-12-24_2026-03-25",
-      "kommune": "Sorø",
-      "udvalg": "Kommunalbestyrelsen",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "53",
-      "titel": "Beslutning om udvidelse af Frederiksberg Skole",
-      "sagsnr": "00.00.00-P20-12-24",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.soroe.dk/#/meeting/587387ac-fe1c-424a-a52b-c1b2724cb61d",
-      "kontaktperson": "",
-      "resume": "",
+      "resume": "Sagen forelægges Natur, Miljø og Klimaudvalget, Økonomiudvalget og Kommunalbestyrelsen mhp at træffe beslutning om frigivelse af anlægsbevilling til udarbejdelse af biodiversitetsplan.",
+      "sagsfremstilling": "Sagen forelægges Natur, Miljø og Klimaudvalget, Økonomiudvalget og Kommunalbestyrelsen mhp at træffe beslutning om frigivelse af anlægsbevilling til udarbejdelse af biodiversitetsplan.",
+      "indstilling_fuld": "Direktionen indstiller til Natur, Miljø og Klimaudvalget at indstille til Økonomiudvalget at indstille til Kommunalbestyrelsen, at der meddeles anlægsbevilling på 800.000 kr. finansieret af de afsatte rådighedsbeløb i 2026 og 2027 på projekt ’Biodiversitetsplan’.",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
       ],
       "fagomraade_keywords": [
-        "planlægning"
+        "naturgenopretning"
       ],
       "status": "ny"
     },
     {
-      "id": "Viborg_19/27220_2026-03-25",
-      "kommune": "Viborg",
-      "udvalg": "Byrådet",
+      "id": "Roskilde_25-023053_2026-03-25",
+      "kommune": "Roskilde",
+      "udvalg": "Roskilde Byråd",
       "moede_dato": "2026-03-25",
-      "punkt_nr": "17",
-      "titel": "Renovering af broer efter udførelse af generaleftersyn (bevillingssag)",
-      "sagsnr": "19/27220",
-      "indstilling": "Direktøren for Teknik & Miljø foreslår, at Teknisk Udvalg indstiller til byrådet,",
+      "punkt_nr": "73",
+      "titel": "Anlægsbevilling -  Byggemodning Trekroner Nordøst",
+      "sagsnr": "25-023053",
+      "indstilling": "",
       "beslutning": "",
       "stpl_score": 3,
       "stpl_type": "Plan",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.viborg.dk/#/meeting/9ab5753a-204f-4711-86a9-cbbea994b688",
+      "bid_mode": "Alene",
+      "link": "https://dagsordener.roskilde.dk/#/meeting/aff4807e-b6b9-4015-9cac-cf481bd5ab98",
       "kontaktperson": "",
-      "resume": "Der skal tages stilling til frigivelse af det afsatte rådighedsbeløb til renovering af broer i 2026.",
+      "resume": "",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
-        "planlægning"
+        "lokalplan"
+      ],
+      "status": "ny"
+    },
+    {
+      "id": "Haderslev_26/5606_2026-03-26",
+      "kommune": "Haderslev",
+      "udvalg": "Haderslev Kommunalbestyrelse",
+      "moede_dato": "2026-03-26",
+      "punkt_nr": "49",
+      "titel": "Medlemsinitiativ - Fra mobilitetsstrategi til konkret handling",
+      "sagsnr": "26/5606",
+      "indstilling": "",
+      "beslutning": "",
+      "stpl_score": 3,
+      "stpl_type": "Plan",
+      "bid_mode": "Konsortium",
+      "link": "https://dagsordener.haderslev.dk/#/meeting/e27f8a27-16d9-44a9-acbc-3d864806cbbf",
+      "kontaktperson": "",
+      "resume": "”På vegne af Socialdemokratiet, Slesvigsk Parti, Radikale Venstre, Enhedslisten og SF har Marie Skødt den 18. marts 2026 fremsendt følgende medlemsinitiativ til dagsordenen:",
+      "sagsfremstilling": "”På vegne af Socialdemokratiet, Slesvigsk Parti, Radikale Venstre, Enhedslisten og SF har Marie Skødt den 18. marts 2026 fremsendt følgende medlemsinitiativ til dagsordenen:",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
+      "indkoeb_keywords": [
+        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
+      ],
+      "fagomraade_keywords": [
+        "mobilitetsplan"
+      ],
+      "status": "ny"
+    },
+    {
+      "id": "Tønder_06.02.10-P20-4-21_2026-03-26",
+      "kommune": "Tønder",
+      "udvalg": "      Kommunalbestyrelsen",
+      "moede_dato": "2026-03-26",
+      "punkt_nr": "20",
+      "titel": "Anlægsbevilling og frigivelse af midler til genslyngning af Løgumkloster Bæk",
+      "sagsnr": "06.02.10-P20-4-21",
+      "indstilling": "",
+      "beslutning": "",
+      "stpl_score": 3,
+      "stpl_type": "Plan",
+      "bid_mode": "Vurdér",
+      "link": "https://dagsordener.toender.dk/#/meeting/339ab233-4557-4051-b84a-4e5f773a9684",
+      "kontaktperson": "",
+      "resume": "Løgumkloster Refugium har i samarbejde med repræsentanter fra Brede Å Lystfiskerforening, Løgumkloster Højskole, Lokalrådet i Løgumkloster, Løgumkloster Kirke og Tønder Kommune udviklet projektet ”Munkenes enge og vandløb”. Løgumkloster Refugium er projektejer og står for projektstyring og fondsa...",
+      "sagsfremstilling": "Løgumkloster Refugium har i samarbejde med repræsentanter fra Brede Å Lystfiskerforening, Løgumkloster Højskole, Lokalrådet i Løgumkloster, Løgumkloster Kirke og Tønder Kommune udviklet projektet ”Munkenes enge og vandløb”. Løgumkloster Refugium er projektejer og står for projektstyring og fondsansøgninger. Projektet indeholder bl.a. en genslyngning af Løgumkloster Bæk, hvor Tønder Kommune står for projektering og udførelse. Tønder Kommune er bygherre på anlægsprojektet. Bilag 1 viser et kort over projekttiltag. Genslyngningsprojektet medvirker til at opnå god økologisk tilstand i vandløbet, som er målsat i Vandområdeplanerne. Tønder Kommune har som bygherre indhentet tre tilbud omfattende genslyngning af ca. 640 meter vandløb, etablering af 7 gydestryg, udlægning af bundmateriale, udlægning af skjulesten og andre mindre arbejder (fx eftersåning). Udgiften til anlægsarbejdet finansieres eksternt via fonde, der har støttet projektet ”Munkenes enge og vandløb”. Anlægsarbejdet forventes igangsat medio april 2026. Tønder Kommune afholder følgende udgifter i projektet: Lodsejererstatninger, arkæologisk forundersøgelse og overvågning, rådgivningsydelsen vedr. byggetilsyn og matrikulær berigtigelse efter genslyngningen. Ud fra foreløbige budgettal udgør Tønder Kommunes udgifter ca. 300.000 kr. ekskl. moms. Den arkæologiske forundersøgelse skal afklare, om der er væsentlige fortidsminder på arealet. Museum Sønderjylland skal overvåge anlægsarbejdet og foretage en registrering af de fortidsminder, som eventuelt fremkommer ved den arkæologiske forundersøgelse. Slots- og Kulturstyrelsen træffer herefter afgørelse om, i hvilket omfang der er tale om væsentlige fortidsminder, samt i hvilket omfang der for bygherres regning skal udføres en egentlig arkæologisk undersøgelse, inden disse kan fjernes. Tønder Kommune kan som bygherre blive pålagt udgifter til en arkæologisk undersøgelse, hvis der stødes på væsentlige fortidsminder. Bygherre og museet kan eventuelt aftale, om der er områder, som kan bevares urørte for eftertiden og bygherre derved kan spare dele af udgiften til en evt. arkæologisk undersøgelse.",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "",
+      "indkoeb_keywords": [
+        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
+      ],
+      "fagomraade_keywords": [
+        "byudvikling"
+      ],
+      "status": "ny"
+    },
+    {
+      "id": "Roskilde_24-091469_2026-03-18",
+      "kommune": "Roskilde",
+      "udvalg": "Økonomiudvalget",
+      "moede_dato": "2026-03-18",
+      "punkt_nr": "93",
+      "titel": "Frigivelse af midler til Rådhusprojektet",
+      "sagsnr": "24-091469",
+      "indstilling": "",
+      "beslutning": "Godkendt. Fraværende: Merete Dea Larsen (O), Jette Tjørnelund (V) Stedfortræder: Bent Jørgensen (V)",
+      "stpl_score": 2,
+      "stpl_type": "Bygherrerådgivning",
+      "bid_mode": "Vurdér",
+      "link": "https://dagsordener.roskilde.dk/#/meeting/cbecb0e0-3020-4f38-8b2f-853bc0146382",
+      "kontaktperson": "",
+      "resume": "",
+      "sagsfremstilling": "",
+      "indstilling_fuld": "",
+      "beslutning_fuld": "Godkendt. Fraværende: Merete Dea Larsen (O), Jette Tjørnelund (V) Stedfortræder: Bent Jørgensen (V)",
+      "indkoeb_keywords": [
+        "frigiv(?:e|else).*(?:rådgiv|konsulent|ek"
+      ],
+      "fagomraade_keywords": [
+        "masterplan"
       ],
       "status": "ny"
     },
@@ -3439,186 +787,20 @@
       "sagsnr": "25/10345",
       "indstilling": "Plan, Teknik og Miljø indstiller, at der vælges model til beslutning, og at sagen sendes til Plan- og Boligudvalget til yderligere kvalificering.",
       "beslutning": "",
-      "stpl_score": 3,
+      "stpl_score": 2,
       "stpl_type": "Plan",
       "bid_mode": "Alene",
       "link": "https://dagsordener.aabenraa.dk/#/meeting/7c92c16d-92f9-4980-a89e-769a64da6c88",
       "kontaktperson": "",
       "resume": "I denne sag lægges der op til en beslutning om de næste skridt for vejføringen af Gasværksvej.",
+      "sagsfremstilling": "I denne sag lægges der op til en beslutning om de næste skridt for vejføringen af Gasværksvej.",
+      "indstilling_fuld": "Plan, Teknik og Miljø indstiller, at der vælges model til beslutning, og at sagen sendes til Plan- og Boligudvalget til yderligere kvalificering.",
+      "beslutning_fuld": "",
       "indkoeb_keywords": [
         "(?:udbud|licitation)\\s+(?:af|for|vedr)"
       ],
       "fagomraade_keywords": [
-        "byudvikling",
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Køge_2026-002888_2026-03-26",
-      "kommune": "Køge",
-      "udvalg": "  Byråd",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "68",
-      "titel": "Etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland",
-      "sagsnr": "2026-002888",
-      "indstilling": "Økonomi- og Koncernservice indstiller til Økonomiudvalget og Byrådet, at Køge Kommune indgår i forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.koege.dk/#/meeting/50b136f0-22e0-4288-afff-dd9245c5c886",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Køge_2026-000708_2026-03-26",
-      "kommune": "Køge",
-      "udvalg": "  Byråd",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "75",
-      "titel": "Delegationsplan 2026-2029 for Økonomiudvalget",
-      "sagsnr": "2026-000708",
-      "indstilling": "Økonomi- og Koncernservice indstiller, at Økonomiudvalget og Byrådet godkender delegationsplanen for Økonomiudvalget og tager orientering om ændringerne til efterretning.",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Miljø",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.koege.dk/#/meeting/50b136f0-22e0-4288-afff-dd9245c5c886",
-      "kontaktperson": "",
-      "resume": "",
-      "indkoeb_keywords": [
-        "bevilling.*rådgiv"
-      ],
-      "fagomraade_keywords": [
-        "miljøvurdering"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lolland_00.00.00-A00-3-26_2026-03-26",
-      "kommune": "Lolland",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "11",
-      "titel": "Beslutning om forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland",
-      "sagsnr": "00.00.00-A00-3-26",
-      "indstilling": "Det indstilles, at Byrådet godkender, at Lolland Kommune indgår i forpligtende samarbejde om etablering af en fælles it-drift- og serviceorganisation for 16 kommuner i KKR Sjælland.",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Vurdér",
-      "link": "https://dagsordener.lolland.dk/#/meeting/f3875486-5c67-4274-b11b-daeb482260bd",
-      "kontaktperson": "",
-      "resume": "Baggrund - Aftale om kommunernes økonomi for 2026 (ØA26) Følgende fremgår af ØA26: ” Kommunerne står over for en stadig mere kompleks cybertrussel. Erfaringer fra nabolande viser, at det kan have konkrete og alvorlige konsekvenser, hvis en kommune rammes af et cyberangreb. Samtidig oplever flere ...",
-      "indkoeb_keywords": [
-        "konsulentbistand"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_82.07.00-P20-137-25_2026-03-26",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "21",
-      "titel": "Genhusning af Lindegårdsskolen under udbedring af etagedæk (Beslutning)",
-      "sagsnr": "82.07.00-P20-137-25",
-      "indstilling": "Forvaltningen foreslår, at Lindegårdskolen genhuses i U/Nords bygninger på Lundtoftevej 93, i kommunens bygning på Lundtoftevej 89 samt i pavilloner fra juli 2026 til og med juli 2028, og at der gives",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.ltk.dk/#/meeting/0714fc1d-ac6b-4ecb-ab01-c4024890ef5f",
-      "kontaktperson": "",
-      "resume": "Kommunalbestyrelsen godkendte den 26. februar 2026 en anlægsbevilling til opsætning af en pavillon på Lindegårdsskolen for at afhjælpe skolens aktuelle genhusningsbehov, der skyldes, at lokaler i den ældste del af skolen fra 1932 er lukket af på grund af nedbøjninger i etagedæk. Forvaltningen fik...",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Lyngby-Taarbæk_82.07.00-P20-137-25_2026-03-26",
-      "kommune": "Lyngby-Taarbæk",
-      "udvalg": "1. Kommunalbestyrelsen og Økonomiudvalget",
-      "moede_dato": "2026-03-26",
-      "punkt_nr": "3",
-      "titel": "Genhusning af Lindegårdsskolen under udbedring af etagedæk (Beslutning)",
-      "sagsnr": "82.07.00-P20-137-25",
-      "indstilling": "Forvaltningen foreslår, at Lindegårdskolen genhuses i U/Nords bygninger på Lundtoftevej 93, i kommunens bygning på Lundtoftevej 89 samt i pavilloner fra juli 2026 til og med juli 2028, og at der gives",
-      "beslutning": "",
-      "stpl_score": 3,
-      "stpl_type": "Plan",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.ltk.dk/#/meeting/0d58a2b1-2e25-46d3-bba8-8a39fba639d3",
-      "kontaktperson": "",
-      "resume": "Kommunalbestyrelsen godkendte den 26. februar 2026 en anlægsbevilling til opsætning af en pavillon på Lindegårdsskolen for at afhjælpe skolens aktuelle genhusningsbehov, der skyldes, at lokaler i den ældste del af skolen fra 1932 er lukket af på grund af nedbøjninger i etagedæk. Forvaltningen fik...",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "planlægning"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Vejle_00.30.18-P20-1-25_2026-03-16",
-      "kommune": "Vejle",
-      "udvalg": "Økonomi & Erhvervsudvalget ",
-      "moede_dato": "2026-03-16",
-      "punkt_nr": "62",
-      "titel": "Anlægsbevilling til ampere-bestilling til busdepot",
-      "sagsnr": "00.30.18-P20-1-25",
-      "indstilling": "",
-      "beslutning": "Anbefales.",
-      "stpl_score": 2,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.vejle.dk/#/meeting/6b2ff46c-56d5-4a87-aa91-04832682d94a",
-      "kontaktperson": "",
-      "resume": "Busdepotet i Sjællandsgade blev i 2022 opført med 2200 Ampere indlagt til dækning af behovet hos 31 eldrevnebusser. Herudover har busdepotet huset 10-12 dieseldrevne busser til betjening af visse regionale ruter. Den grønne omstilling medfører, at de øvrige busser i busdepotet konverteres til elb...",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
-      ],
-      "status": "ny"
-    },
-    {
-      "id": "Vejle_00.30.18-P20-1-25_2026-03-25",
-      "kommune": "Vejle",
-      "udvalg": "Byrådet",
-      "moede_dato": "2026-03-25",
-      "punkt_nr": "78",
-      "titel": "Anlægsbevilling til ampere-bestilling til busdepot",
-      "sagsnr": "00.30.18-P20-1-25",
-      "indstilling": "",
-      "beslutning": "",
-      "stpl_score": 2,
-      "stpl_type": "Rådgivning",
-      "bid_mode": "Alene",
-      "link": "https://dagsordener.vejle.dk/#/meeting/5608e06a-8029-4895-9ca1-fc5377e2d81e",
-      "kontaktperson": "",
-      "resume": "Busdepotet i Sjællandsgade blev i 2022 opført med 2200 Ampere indlagt til dækning af behovet hos 31 eldrevnebusser. Herudover har busdepotet huset 10-12 dieseldrevne busser til betjening af visse regionale ruter. Den grønne omstilling medfører, at de øvrige busser i busdepotet konverteres til elb...",
-      "indkoeb_keywords": [
-        "(?:udbud|licitation)\\s+(?:af|for|vedr)"
-      ],
-      "fagomraade_keywords": [
-        "infrastruktur"
+        "byudvikling"
       ],
       "status": "ny"
     }

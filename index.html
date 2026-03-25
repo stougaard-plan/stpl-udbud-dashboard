@@ -96,9 +96,37 @@
     margin-bottom: 12px;
     transition: border-color 0.2s;
   }
+  .card { cursor: pointer; }
   .card:hover { border-color: var(--secondary); }
   .card.go { border-left: 4px solid var(--go); }
   .card.nogo { border-left: 4px solid var(--nogo); opacity: 0.6; }
+  .card-expand {
+    display: none;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+    font-size: 0.85rem;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .card.expanded .card-expand { display: block; }
+  .card-expand h4 {
+    font-weight: 500;
+    font-size: 0.82rem;
+    color: var(--accent);
+    margin: 10px 0 4px 0;
+  }
+  .card-expand h4:first-child { margin-top: 0; }
+  .card-expand p {
+    margin-bottom: 6px;
+    white-space: pre-wrap;
+  }
+  .expand-hint {
+    font-size: 0.75rem;
+    color: var(--secondary);
+    margin-top: 6px;
+  }
+  .card.expanded .expand-hint { display: none; }
   .card-header {
     display: flex;
     justify-content: space-between;
@@ -370,6 +398,10 @@ function processData(data) {
         resume: r.resume || "",
         kontaktperson: r.kontaktperson || "",
         udvalg: r.udvalg || "",
+        // Fulde tekster til expand-visning
+        indstilling_fuld: r.indstilling_fuld || r.indstilling || "",
+        beslutning_fuld: r.beslutning_fuld || r.beslutning || "",
+        sagsfremstilling: r.sagsfremstilling || "",
       });
     }
   }
@@ -459,7 +491,7 @@ function render() {
     const statusClass = status === "go" ? "go" : status === "nogo" ? "nogo" : "";
 
     return `
-      <div class="card ${statusClass}" id="card-${CSS.escape(item.id)}">
+      <div class="card ${statusClass}" id="card-${CSS.escape(item.id)}" onclick="toggleCard('card-${CSS.escape(item.id)}')">
         <div class="card-header">
           <div>
             <div class="card-title">${esc(item.titel)}</div>
@@ -477,19 +509,19 @@ function render() {
             <span class="badge badge-kilde">${esc(item.kilde_label)}</span>
           </div>
         </div>
-        ${item.indstilling || item.beslutning || item.resume ? `
         <div class="card-body">
           ${item.indstilling ? `<p><strong>Indstilling:</strong> ${esc(item.indstilling)}</p>` : ""}
-          ${item.beslutning ? `<p><strong>Beslutning:</strong> ${esc(item.beslutning)}</p>` : ""}
           ${item.resume ? `<p>${esc(item.resume)}</p>` : ""}
           ${item.kontaktperson ? `<p><strong>Kontakt:</strong> ${esc(item.kontaktperson)}</p>` : ""}
-        </div>` : ""}
-        <div class="card-actions">
+          <div class="expand-hint">Klik for at se fuld dagsorden ▾</div>
+        </div>
+        ${buildExpandSection(item)}
+        <div class="card-actions" onclick="event.stopPropagation()">
           <button class="btn btn-go ${status === 'go' ? 'active' : ''}"
             onclick="setDecision('${esc(item.id)}', 'go')">Go videre</button>
           <button class="btn btn-nogo ${status === 'nogo' ? 'active' : ''}"
             onclick="setDecision('${esc(item.id)}', 'nogo')">Fravælg</button>
-          ${item.link ? `<a class="btn btn-link" href="${esc(item.link)}" target="_blank">Åbn kilde</a>` : ""}
+          ${item.link ? `<a class="btn btn-link" href="${esc(item.link)}" target="_blank" onclick="event.stopPropagation()">Åbn kilde</a>` : ""}
         </div>
       </div>
     `;
@@ -504,6 +536,36 @@ function esc(str) {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
+}
+
+// ============================================================
+// EXPAND / COLLAPSE
+// ============================================================
+
+function buildExpandSection(item) {
+  const parts = [];
+  if (item.indstilling_fuld) {
+    parts.push(`<h4>Indstilling</h4><p>${esc(item.indstilling_fuld)}</p>`);
+  }
+  if (item.beslutning_fuld) {
+    parts.push(`<h4>Beslutning</h4><p>${esc(item.beslutning_fuld)}</p>`);
+  }
+  if (item.sagsfremstilling) {
+    parts.push(`<h4>Sagsfremstilling</h4><p>${esc(item.sagsfremstilling)}</p>`);
+  }
+  // Fallback: vis resume hvis ingen fulde tekster
+  if (parts.length === 0 && item.resume) {
+    parts.push(`<h4>Resume</h4><p>${esc(item.resume)}</p>`);
+  }
+  if (parts.length === 0) {
+    parts.push(`<p style="color: var(--secondary)">Ingen yderligere tekst tilgængelig. Brug "Åbn kilde" for at se den fulde dagsorden.</p>`);
+  }
+  return `<div class="card-expand">${parts.join("")}</div>`;
+}
+
+function toggleCard(cardId) {
+  const card = document.getElementById(cardId);
+  if (card) card.classList.toggle("expanded");
 }
 
 // ============================================================
