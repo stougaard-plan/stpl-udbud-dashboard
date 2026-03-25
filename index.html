@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STPL Udbudsscanner</title>
+<style>
+  :root {
+    --text: #0F0F0F;
+    --bg: #FFFFFF;
+    --section-bg: #F2F2F2;
+    --secondary: #6B6B6B;
+    --line: #D9D9D9;
+    --accent: #4A6B5C;
+    --go: #2D6A4F;
+    --nogo: #9E2A2B;
+    --pending: #6B6B6B;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.5;
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    color: var(--secondary);
+    font-size: 0.85rem;
+    margin-bottom: 24px;
+  }
+  .stats-bar {
+    display: flex;
+    gap: 24px;
+    padding: 16px 20px;
+    background: var(--section-bg);
+    border-radius: 8px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  .stat { text-align: center; }
+  .stat-value { font-weight: 500; font-size: 1.4rem; }
+  .stat-label { font-size: 0.75rem; color: var(--secondary); }
+  .filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .filters select, .filters input {
+    padding: 6px 12px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    background: white;
+  }
+  .filters label {
+    font-size: 0.8rem;
+    color: var(--secondary);
+  }
+  .tab-bar {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--line);
+    margin-bottom: 20px;
+  }
+  .tab {
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--secondary);
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.2s;
+  }
+  .tab.active {
+    color: var(--text);
+    font-weight: 500;
+    border-bottom-color: var(--accent);
+  }
+  .tab:hover { color: var(--text); }
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--secondary); }
+  .card.go { border-left: 4px solid var(--go); }
+  .card.nogo { border-left: 4px solid var(--nogo); opacity: 0.6; }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .card-title {
+    font-weight: 500;
+    font-size: 0.95rem;
+    flex: 1;
+  }
+  .card-score {
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  .card-meta {
+    display: flex;
+    gap: 16px;
+    margin-top: 6px;
+    font-size: 0.8rem;
+    color: var(--secondary);
+    flex-wrap: wrap;
+  }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.72rem;
+    font-weight: 500;
+  }
+  .badge-type { background: var(--section-bg); color: var(--text); }
+  .badge-bid { background: #E8F0EB; color: var(--go); }
+  .badge-kilde { background: #FFF3E0; color: #E65100; }
+  .card-body {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: var(--secondary);
+  }
+  .card-body p { margin-bottom: 4px; }
+  .card-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .btn {
+    padding: 6px 16px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+    background: white;
+  }
+  .btn-go { border-color: var(--go); color: var(--go); }
+  .btn-go:hover, .btn-go.active { background: var(--go); color: white; }
+  .btn-nogo { border-color: var(--nogo); color: var(--nogo); }
+  .btn-nogo:hover, .btn-nogo.active { background: var(--nogo); color: white; }
+  .btn-link { border: none; color: var(--accent); text-decoration: underline; padding: 6px 4px; }
+  .empty {
+    text-align: center;
+    padding: 40px;
+    color: var(--secondary);
+    font-size: 0.9rem;
+  }
+  .fejl-list {
+    background: var(--section-bg);
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    color: var(--secondary);
+    margin-bottom: 20px;
+  }
+  .sync-info {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background: var(--section-bg);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    color: var(--secondary);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  @media (max-width: 600px) {
+    body { padding: 12px; }
+    .stats-bar { gap: 12px; }
+    .card-header { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<h1>STPL Udbudsscanner</h1>
+<p class="subtitle" id="subtitle">Indlæser data...</p>
+
+<div class="stats-bar" id="stats-bar">
+  <div class="stat"><div class="stat-value" id="s-total">—</div><div class="stat-label">Udbud i alt</div></div>
+  <div class="stat"><div class="stat-value" id="s-portal">—</div><div class="stat-label">Portal-udbud</div></div>
+  <div class="stat"><div class="stat-value" id="s-mini">—</div><div class="stat-label">Mini-udbud</div></div>
+  <div class="stat"><div class="stat-value" id="s-go">—</div><div class="stat-label">Go</div></div>
+  <div class="stat"><div class="stat-value" id="s-nogo">—</div><div class="stat-label">No-go</div></div>
+  <div class="stat"><div class="stat-value" id="s-pending">—</div><div class="stat-label">Afventer</div></div>
+</div>
+
+<div class="filters">
+  <div>
+    <label>Kilde</label><br>
+    <select id="f-kilde">
+      <option value="">Alle</option>
+      <option value="portal">Portal-udbud</option>
+      <option value="dagsorden">Mini-udbud (dagsorden)</option>
+    </select>
+  </div>
+  <div>
+    <label>Type</label><br>
+    <select id="f-type">
+      <option value="">Alle</option>
+      <option value="Plan">Plan</option>
+      <option value="Miljø">Miljø</option>
+      <option value="Forsyning">Forsyning</option>
+      <option value="Rådgivning">Rådgivning</option>
+      <option value="Bygherrerådgivning">Bygherrerådgivning</option>
+      <option value="Analyse">Analyse</option>
+    </select>
+  </div>
+  <div>
+    <label>Min. score</label><br>
+    <select id="f-score">
+      <option value="0">Alle</option>
+      <option value="3">★★★+</option>
+      <option value="4">★★★★+</option>
+      <option value="5">★★★★★</option>
+    </select>
+  </div>
+  <div>
+    <label>Status</label><br>
+    <select id="f-status">
+      <option value="">Alle</option>
+      <option value="ny">Afventer</option>
+      <option value="go">Go</option>
+      <option value="nogo">No-go</option>
+    </select>
+  </div>
+  <div>
+    <label>Søg</label><br>
+    <input type="text" id="f-search" placeholder="Kommune, titel..." style="width: 200px;">
+  </div>
+</div>
+
+<div class="tab-bar">
+  <div class="tab active" data-tab="alle">Alle</div>
+  <div class="tab" data-tab="nye">Nye</div>
+  <div class="tab" data-tab="go">Go</div>
+  <div class="tab" data-tab="nogo">No-go</div>
+</div>
+
+<div id="cards-container"></div>
+<div id="fejl-container"></div>
+
+<div class="sync-info" id="sync-info">
+  Sidst opdateret: —
+</div>
+
+<script>
+// ============================================================
+// STATE
+// ============================================================
+
+let allItems = [];
+let decisions = {};  // id -> "go" | "nogo"
+let currentTab = "alle";
+const STORAGE_KEY = "stpl_udbud_decisions";
+const DATA_URL = "data.json";  // Relativ sti — erstat med GitHub raw URL
+
+// ============================================================
+// LOAD / SAVE
+// ============================================================
+
+function loadDecisions() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) decisions = JSON.parse(saved);
+  } catch(e) {
+    // Fallback: in-memory only
+    decisions = {};
+  }
+}
+
+function saveDecisions() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(decisions));
+  } catch(e) {}
+  // Også gem som downloadbar JSON for sync til Notion
+  updateExportLink();
+}
+
+function updateExportLink() {
+  // Gør decisions tilgængelige som JSON-blob
+  const exportData = {
+    exported: new Date().toISOString(),
+    decisions: Object.entries(decisions).map(([id, status]) => {
+      const item = allItems.find(i => i.id === id);
+      return {
+        id, status,
+        titel: item ? item.titel : "?",
+        kommune: item ? item.kommune : "?",
+      };
+    })
+  };
+  window._exportData = exportData;
+}
+
+async function loadData() {
+  try {
+    const resp = await fetch(DATA_URL);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    processData(data);
+  } catch(e) {
+    document.getElementById("subtitle").textContent = `Fejl ved indlæsning: ${e.message}. Placer data.json ved siden af index.html.`;
+  }
+}
+
+function processData(data) {
+  allItems = [];
+
+  // Portal-udbud (fra TED, udbud.dk etc.)
+  if (data.portal_udbud) {
+    for (const u of data.portal_udbud) {
+      allItems.push({
+        id: u.id || `portal_${u.title}_${u.authority}`,
+        kilde: "portal",
+        kilde_label: u.kilde || "TED",
+        titel: u.title || u.titel || "",
+        kommune: u.authority || u.ordregiver || "",
+        moede_dato: u.publication_date || u.dato || "",
+        frist: u.deadline_formatted || u.frist || "",
+        stpl_score: u.stpl_score || 0,
+        stpl_type: u.tender_type || u.type || "",
+        bid_mode: u.bid_mode || "Vurdér",
+        link: u.url || u.link || "",
+        indstilling: "",
+        beslutning: "",
+        resume: u.vurdering || "",
+        kontaktperson: "",
+        udvalg: "",
+      });
+    }
+  }
+
+  // Mini-udbud (fra dagsordener)
+  if (data.resultater) {
+    for (const r of data.resultater) {
+      allItems.push({
+        id: r.id || `${r.kommune}_${r.sagsnr}_${r.moede_dato}`,
+        kilde: "dagsorden",
+        kilde_label: "Dagsorden",
+        titel: r.titel,
+        kommune: r.kommune,
+        moede_dato: r.moede_dato,
+        frist: "",
+        stpl_score: r.stpl_score,
+        stpl_type: r.stpl_type,
+        bid_mode: r.bid_mode,
+        link: r.link,
+        indstilling: r.indstilling || "",
+        beslutning: r.beslutning || "",
+        resume: r.resume || "",
+        kontaktperson: r.kontaktperson || "",
+        udvalg: r.udvalg || "",
+      });
+    }
+  }
+
+  // Sortér: højeste score først, derefter dato
+  allItems.sort((a, b) => {
+    if (b.stpl_score !== a.stpl_score) return b.stpl_score - a.stpl_score;
+    return (b.moede_dato || "").localeCompare(a.moede_dato || "");
+  });
+
+  // Stats
+  const scanDato = data.stats?.scan_dato || data.scan_dato || "ukendt";
+  const fejlet = data.fejlet || [];
+
+  document.getElementById("subtitle").textContent =
+    `Seneste scan: ${scanDato} · ${data.stats?.scannet_ok || "?"} kommuner scannet`;
+  document.getElementById("sync-info").textContent =
+    `Sidst opdateret: ${scanDato}`;
+
+  if (fejlet.length > 0) {
+    document.getElementById("fejl-container").innerHTML =
+      `<div class="fejl-list">Fejlede kommuner (${fejlet.length}): ${fejlet.map(f => typeof f === 'string' ? f : f[0]).join(", ")}</div>`;
+  }
+
+  render();
+}
+
+// ============================================================
+// RENDER
+// ============================================================
+
+function getStatus(id) {
+  return decisions[id] || "ny";
+}
+
+function getFilteredItems() {
+  const fKilde = document.getElementById("f-kilde").value;
+  const fType = document.getElementById("f-type").value;
+  const fScore = parseInt(document.getElementById("f-score").value) || 0;
+  const fStatus = document.getElementById("f-status").value;
+  const fSearch = document.getElementById("f-search").value.toLowerCase();
+
+  return allItems.filter(item => {
+    const status = getStatus(item.id);
+    if (currentTab === "nye" && status !== "ny") return false;
+    if (currentTab === "go" && status !== "go") return false;
+    if (currentTab === "nogo" && status !== "nogo") return false;
+    if (fKilde && item.kilde !== fKilde) return false;
+    if (fType && item.stpl_type !== fType) return false;
+    if (fScore && item.stpl_score < fScore) return false;
+    if (fStatus && status !== fStatus) return false;
+    if (fSearch) {
+      const haystack = `${item.titel} ${item.kommune} ${item.udvalg} ${item.resume}`.toLowerCase();
+      if (!haystack.includes(fSearch)) return false;
+    }
+    return true;
+  });
+}
+
+function render() {
+  // Update stats
+  const portalCount = allItems.filter(i => i.kilde === "portal").length;
+  const miniCount = allItems.filter(i => i.kilde === "dagsorden").length;
+  const goCount = allItems.filter(i => getStatus(i.id) === "go").length;
+  const nogoCount = allItems.filter(i => getStatus(i.id) === "nogo").length;
+  const pendingCount = allItems.filter(i => getStatus(i.id) === "ny").length;
+
+  document.getElementById("s-total").textContent = allItems.length;
+  document.getElementById("s-portal").textContent = portalCount;
+  document.getElementById("s-mini").textContent = miniCount;
+  document.getElementById("s-go").textContent = goCount;
+  document.getElementById("s-nogo").textContent = nogoCount;
+  document.getElementById("s-pending").textContent = pendingCount;
+
+  // Render cards
+  const filtered = getFilteredItems();
+  const container = document.getElementById("cards-container");
+
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="empty">Ingen udbud matcher dine filtre.</div>';
+    return;
+  }
+
+  container.innerHTML = filtered.map(item => {
+    const status = getStatus(item.id);
+    const stars = "★".repeat(item.stpl_score) + "☆".repeat(5 - item.stpl_score);
+    const statusClass = status === "go" ? "go" : status === "nogo" ? "nogo" : "";
+
+    return `
+      <div class="card ${statusClass}" id="card-${CSS.escape(item.id)}">
+        <div class="card-header">
+          <div>
+            <div class="card-title">${esc(item.titel)}</div>
+            <div class="card-meta">
+              <span>${esc(item.kommune)}</span>
+              ${item.udvalg ? `<span>${esc(item.udvalg)}</span>` : ""}
+              <span>${item.moede_dato}</span>
+              ${item.frist ? `<span>Frist: ${esc(item.frist)}</span>` : ""}
+            </div>
+          </div>
+          <div class="card-score">
+            <span style="color: var(--accent)">${stars}</span>
+            <span class="badge badge-type">${esc(item.stpl_type)}</span>
+            <span class="badge badge-bid">${esc(item.bid_mode)}</span>
+            <span class="badge badge-kilde">${esc(item.kilde_label)}</span>
+          </div>
+        </div>
+        ${item.indstilling || item.beslutning || item.resume ? `
+        <div class="card-body">
+          ${item.indstilling ? `<p><strong>Indstilling:</strong> ${esc(item.indstilling)}</p>` : ""}
+          ${item.beslutning ? `<p><strong>Beslutning:</strong> ${esc(item.beslutning)}</p>` : ""}
+          ${item.resume ? `<p>${esc(item.resume)}</p>` : ""}
+          ${item.kontaktperson ? `<p><strong>Kontakt:</strong> ${esc(item.kontaktperson)}</p>` : ""}
+        </div>` : ""}
+        <div class="card-actions">
+          <button class="btn btn-go ${status === 'go' ? 'active' : ''}"
+            onclick="setDecision('${esc(item.id)}', 'go')">Go videre</button>
+          <button class="btn btn-nogo ${status === 'nogo' ? 'active' : ''}"
+            onclick="setDecision('${esc(item.id)}', 'nogo')">Fravælg</button>
+          ${item.link ? `<a class="btn btn-link" href="${esc(item.link)}" target="_blank">Åbn kilde</a>` : ""}
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function esc(str) {
+  if (!str) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+// ============================================================
+// ACTIONS
+// ============================================================
+
+function setDecision(id, status) {
+  if (decisions[id] === status) {
+    delete decisions[id];  // Toggle off
+  } else {
+    decisions[id] = status;
+  }
+  saveDecisions();
+  render();
+}
+
+// Export decisions as downloadable JSON (for Notion sync)
+function exportDecisions() {
+  const blob = new Blob([JSON.stringify(window._exportData, null, 2)], {type: "application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `udbud_decisions_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ============================================================
+// EVENT LISTENERS
+// ============================================================
+
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    currentTab = tab.dataset.tab;
+    render();
+  });
+});
+
+["f-kilde", "f-type", "f-score", "f-status"].forEach(id => {
+  document.getElementById(id).addEventListener("change", render);
+});
+
+document.getElementById("f-search").addEventListener("input", render);
+
+// Keyboard: E = export
+document.addEventListener("keydown", e => {
+  if (e.key === "e" && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== "INPUT") {
+    exportDecisions();
+  }
+});
+
+// ============================================================
+// INIT
+// ============================================================
+
+loadDecisions();
+loadData();
+</script>
+
+</body>
+</html>
