@@ -346,8 +346,9 @@ let saveTimeout = null;
 async function loadDecisions() {
   try {
     updateSyncStatus("Henter...");
-    const resp = await fetch(GIST_API, {
-      headers: { "Authorization": `token ${GIST_TOKEN}`, "Accept": "application/vnd.github.v3+json" }
+    const resp = await fetch(`${GIST_API}?t=${Date.now()}`, {
+      headers: { "Authorization": `token ${GIST_TOKEN}`, "Accept": "application/vnd.github.v3+json" },
+      cache: "no-store",
     });
     if (resp.ok) {
       const gist = await resp.json();
