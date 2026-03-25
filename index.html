@@ -491,7 +491,7 @@ function render() {
     const statusClass = status === "go" ? "go" : status === "nogo" ? "nogo" : "";
 
     return `
-      <div class="card ${statusClass}" id="card-${CSS.escape(item.id)}" onclick="toggleCard('card-${CSS.escape(item.id)}')">
+      <div class="card ${statusClass}" data-card-id="${esc(item.id)}">
         <div class="card-header">
           <div>
             <div class="card-title">${esc(item.titel)}</div>
@@ -516,12 +516,12 @@ function render() {
           <div class="expand-hint">Klik for at se fuld dagsorden ▾</div>
         </div>
         ${buildExpandSection(item)}
-        <div class="card-actions" onclick="event.stopPropagation()">
+        <div class="card-actions">
           <button class="btn btn-go ${status === 'go' ? 'active' : ''}"
-            onclick="setDecision('${esc(item.id)}', 'go')">Go videre</button>
+            data-decision="go" data-item-id="${esc(item.id)}">Go videre</button>
           <button class="btn btn-nogo ${status === 'nogo' ? 'active' : ''}"
-            onclick="setDecision('${esc(item.id)}', 'nogo')">Fravælg</button>
-          ${item.link ? `<a class="btn btn-link" href="${esc(item.link)}" target="_blank" onclick="event.stopPropagation()">Åbn kilde</a>` : ""}
+            data-decision="nogo" data-item-id="${esc(item.id)}">Fravælg</button>
+          ${item.link ? `<a class="btn btn-link" href="${esc(item.link)}" target="_blank">Åbn kilde</a>` : ""}
         </div>
       </div>
     `;
@@ -563,11 +563,6 @@ function buildExpandSection(item) {
   return `<div class="card-expand">${parts.join("")}</div>`;
 }
 
-function toggleCard(cardId) {
-  const card = document.getElementById(cardId);
-  if (card) card.classList.toggle("expanded");
-}
-
 // ============================================================
 // ACTIONS
 // ============================================================
@@ -581,6 +576,22 @@ function setDecision(id, status) {
   saveDecisions();
   render();
 }
+
+// Event delegation: klik på kort = expand, klik på knap = go/nogo
+document.getElementById("cards-container").addEventListener("click", function(e) {
+  // Håndtér go/nogo knapper
+  const btn = e.target.closest("[data-decision]");
+  if (btn) {
+    e.stopPropagation();
+    setDecision(btn.dataset.itemId, btn.dataset.decision);
+    return;
+  }
+  // Håndtér links (åbn kilde)
+  if (e.target.closest("a")) return;
+  // Ellers: toggle expand på kortet
+  const card = e.target.closest(".card");
+  if (card) card.classList.toggle("expanded");
+});
 
 // Export decisions as downloadable JSON (for Notion sync)
 function exportDecisions() {
